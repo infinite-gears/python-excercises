@@ -19,3 +19,8 @@ To get started with these Python exercises, follow these steps:
    ```bash
    git clone https://github.com/infinite-gears/python-exercises.git
 
+2. Navigate to the repository directory:
+
+cd python-exercises
+
+
