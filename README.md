@@ -24,23 +24,15 @@ To get started with these Python exercises, follow these steps:
    ```bash
    cd python-exercises
 
-3.     Start working on the exercises and improving your Python skills!
+3. Start working on the exercises and improving your Python skills!
 
-Exercises
+## Exercises
 
 In this section, you will find a variety of Python exercises to test and improve your coding skills. Each exercise includes a problem statement and may have one or more example solutions. Choose an exercise, attempt it on your own, and then check the solutions if you need help or want to compare your solution.
-Exercise 1: Hello, World!
+
+## Exercise 1: Hello, World!
 
 Write a Python program that prints "Hello, World!" to the console.
 
    ```bash
    print("Hello, World!")
-
-Exercise 2: Calculate the Square
-
-Write a Python function that calculates the square of a given number.
-
-   ```bash
-   def square(x):
-    return x * x
-
