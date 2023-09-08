@@ -30,9 +30,14 @@ To get started with these Python exercises, follow these steps:
 
 In this section, you will find a variety of Python exercises to test and improve your coding skills. Each exercise includes a problem statement and may have one or more example solutions. Choose an exercise, attempt it on your own, and then check the solutions if you need help or want to compare your solution.
 
-## Exercise 1: Hello, World!
+### Exercise 1: Calculate Average
 
-Write a Python program that prints "Hello, World!" to the console.
+```python
+# Function to calculate the average of a list of numbers
+def calculate_average(numbers):
+    if len(numbers) == 0:
+        return 0
+    return sum(numbers) / len(numbers)
 
-   ```bash
-   print("Hello, World!")
+
+
