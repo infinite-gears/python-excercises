@@ -40,6 +40,22 @@ def calculate_average(numbers):
     return sum(numbers) / len(numbers)
 
 **Explanation:** This exercise defines a Python function `calculate_average` that takes a list of numbers as input and calculates the average of those numbers. It checks if the input list is empty and returns 0 in that case to avoid division by zero errors. Otherwise, it calculates the sum of the numbers and divides it by the count of numbers in the list to compute the average.
+# Function to check if a number is prime
+def is_prime(number):
+    if number <= 1:
+        return False
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
+            return False
+    return True
+
+# Function to find prime numbers in a given range
+def find_primes_in_range(start, end):
+    prime_numbers = []
+    for num in range(start, end + 1):
+        if is_prime(num):
+            prime_numbers.append(num)
+    return prime_numbers
 
 
 
