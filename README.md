@@ -39,5 +39,7 @@ def calculate_average(numbers):
         return 0
     return sum(numbers) / len(numbers)
 
+**Explanation:** This exercise defines a Python function `calculate_average` that takes a list of numbers as input and calculates the average of those numbers. It checks if the input list is empty and returns 0 in that case to avoid division by zero errors. Otherwise, it calculates the sum of the numbers and divides it by the count of numbers in the list to compute the average.
+
 
 
