@@ -99,7 +99,49 @@ If you'd like to contribute to this Python Exercises repository, please follow t
    git commit -m "Add new exercises"
    git push origin feature/add-exercise
    ```
+Certainly! Here are the "Solutions," "Contributing," and "License" sections added to your content, with the license specified as MIT:
 
+```markdown
+## Solutions
+
+Solutions to the exercises can be found in the solutions directory of this repository. You can use these solutions to check your work or to learn different ways to solve the exercises.
+
+## Contributing
+
+If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
+
+1. Fork this repository to your GitHub account.
+
+2. Clone your forked repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/python-exercises.git
+   ```
+
+3. Create a new branch for your contributions:
+
+   ```bash
+   git checkout -b feature/add-exercise
+   ```
+
+4. Add your new exercises or solutions to the appropriate directories.
+
+5. Commit your changes and push them to your GitHub repository:
+
+   ```bash
+   git add .
+   git commit -m "Add new exercises"
+   git push origin feature/add-exercise
+   ```
+
+6. Create a pull request from your forked repository to the main repository.
+
+## License
+
+This repository and its contents are open-source and available under the MIT License. You can find the full license details in the [LICENSE](LICENSE) file.
+```
+
+Feel free to add these sections to your Markdown document, and don't forget to include the actual MIT License text in a `LICENSE` file in your repository.
 6. Create a pull request from your forked repository to the main repository.
 ```
 
