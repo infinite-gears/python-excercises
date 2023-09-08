@@ -112,4 +112,3 @@ Feel free to add these sections to your Markdown document, and don't forget to i
 6. Create a pull request from your forked repository to the main repository.
 ```
 
-You can copy and paste this entire code box into your Markdown document.
