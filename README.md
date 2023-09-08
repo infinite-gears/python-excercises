@@ -99,7 +99,7 @@ If you'd like to contribute to this Python Exercises repository, please follow t
    git commit -m "Add new exercises"
    git push origin feature/add-exercise
    ```
-Certainly! Here are the "Solutions," "Contributing," and "License" sections added to your content, with the license specified as MIT:
+
 
 ```markdown
 ## Solutions
