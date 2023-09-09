@@ -59,7 +59,7 @@ In this exercise, you'll write a Python program to calculate the Fibonacci seque
 
 #### Example:
 
-```python
+
 # fibonacci.py
 
 def calculate_fibonacci(n):
@@ -114,7 +114,6 @@ Below are Python solutions for calculating the Fibonacci sequence:
 
 #### Using Recursion
 
-```python
 def fibonacci_recursive(n):
     if n <= 0:
         return []
@@ -131,6 +130,18 @@ n = int(input("Enter the number of Fibonacci terms to calculate (using recursion
 result = fibonacci_recursive(n)
 print(f"The first {n} Fibonacci numbers are: {result}")
 
+### Using a Loop to Calculate the Fibonacci Sequence
+
+def fibonacci_loop(n):
+    fibonacci_sequence = [0, 1]
+    while len(fibonacci_sequence) < n:
+        next_number = fibonacci_sequence[-1] + fibonacci_sequence[-2]
+        fibonacci_sequence.append(next_number)
+    return fibonacci_sequence
+
+n = int(input("Enter the number of Fibonacci terms to calculate (using a loop): "))
+result = fibonacci_loop(n)
+print(f"The first {n} Fibonacci numbers are: {result}")
 
 
 ## Contributing
