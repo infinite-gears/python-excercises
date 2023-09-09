@@ -38,7 +38,6 @@ In this section, you will find a variety of Python exercises to test and improve
 
 Feel free to add more exercises to this repository to challenge yourself and others. To contribute additional exercises, please follow the Contributing guidelines below.
 
-### Exercise: Calculate the Fibonacci Sequence
 
 ### Exercise: Calculate the Fibonacci Sequence
 
