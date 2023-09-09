@@ -40,6 +40,47 @@ Feel free to add more exercises to this repository to challenge yourself and oth
 
 ### Exercise: Calculate the Fibonacci Sequence
 
+### Exercise: Calculate the Fibonacci Sequence
+
+In this exercise, you'll write a Python program to calculate the Fibonacci sequence up to a specified number of terms. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1.
+
+#### Instructions:
+
+1. Create a Python script named `fibonacci.py`.
+
+2. Write a function `calculate_fibonacci(n)` that takes an integer `n` as input and returns a list containing the first `n` Fibonacci numbers.
+
+3. Implement the function using a loop or recursion.
+
+4. In your `fibonacci.py` script, take user input for the number of terms they want in the Fibonacci sequence.
+
+5. Call the `calculate_fibonacci` function with the user's input and print the resulting list of Fibonacci numbers.
+
+6. Test your program with different values of `n` to verify its correctness.
+
+#### Example:
+
+```python
+# fibonacci.py
+
+def calculate_fibonacci(n):
+    fibonacci_sequence = [0, 1]
+    while len(fibonacci_sequence) < n:
+        next_number = fibonacci_sequence[-1] + fibonacci_sequence[-2]
+        fibonacci_sequence.append(next_number)
+    return fibonacci_sequence
+
+try:
+    n = int(input("Enter the number of Fibonacci terms to calculate: "))
+    if n <= 0:
+        print("Please enter a positive integer.")
+    else:
+        result = calculate_fibonacci(n)
+        print(f"The first {n} Fibonacci numbers are: {result}")
+except ValueError:
+    print("Invalid input. Please enter a valid integer.")
+
+
 #### Problem Statement
 
 Write a Python function `calculate_fibonacci(n)` that calculates the first `n` numbers in the Fibonacci sequence and returns them as a list.
