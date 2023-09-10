@@ -7,9 +7,12 @@ Welcome to the Python Exercises repository! This repository contains a collectio
 
 - [Getting Started](#getting-started)
 - [Exercises](#exercises)
+  - [Python Scripts and Exercises](#python-scripts-and-exercises)
+  - [Example: Voting Eligibility Checker](#example-voting-eligibility-checker)
 - [Solutions](#solutions)
 - [Contributing](#contributing)
 - [License](#license)
+
 
 ## Getting Started
 
@@ -176,6 +179,32 @@ n = int(input("Enter the number of Fibonacci terms to calculate (using a loop): 
 result = fibonacci_loop(n)
 print(f"The first {n} Fibonacci numbers are: {result}")
 
+## Introduction to Conditional Statements
+
+### Conditional Statements in Python
+
+Conditional statements are an essential part of programming. They allow you to make decisions and execute different code blocks based on certain conditions. In Python, the most commonly used conditional statements are `if`, `elif` (short for "else if"), and `else`. Here's a brief overview:
+
+- **`if` Statement**: The `if` statement is used to execute a block of code if a certain condition is true.
+
+- **`elif` Statement**: The `elif` statement is used to check additional conditions if the preceding `if` condition is false.
+
+- **`else` Statement**: The `else` statement is used to execute a block of code if none of the previous conditions are true.
+
+### Example: Voting Eligibility Checker
+
+Let's look at an example script called "voting_eligibility_checker.py" that demonstrates conditional statements:
+
+# voting_eligibility_checker.py
+
+# Get user input for age
+age = int(input("Enter your age: "))
+
+# Check if the user is eligible to vote
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote yet.")
 
 ## Contributing
 
