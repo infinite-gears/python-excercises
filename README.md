@@ -9,6 +9,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
 - [Exercises](#exercises)
   - [Python Scripts and Exercises](#python-scripts-and-exercises)
   - [Example: Voting Eligibility Checker](#example-voting-eligibility-checker)
+  - [Exercise: Conditional Statements](#exercise-conditional-statements)   <!-- Added Exercise -->
 - [Solutions](#solutions)
 - [Contributing](#contributing)
 - [License](#license)
