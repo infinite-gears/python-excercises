@@ -206,6 +206,56 @@ if age >= 18:
 else:
     print("You are not eligible to vote yet.")
 
+# Conditional Statements Exercise
+
+In this exercise, we will explore conditional statements using a simple script. The script takes an integer as input and determines whether the integer is "Weird" or "Not Weird" based on certain conditions.
+
+## Script Explanation
+
+The script has the following conditional checks:
+
+1. If the input integer `N` is odd, it prints "Weird."
+2. If `N` is even and in the inclusive range of 2 to 5, it prints "Not Weird."
+3. If `N` is even and in the inclusive range of 6 to 20, it prints "Weird."
+4. If `N` is even and greater than 20, it prints "Not Weird."
+
+You can find the script in both C++ and Python versions in this repository.
+
+## Exercise
+
+### Problem Statement
+
+Write a program that takes an integer input and follows the same conditional checks as the provided script to determine whether the input is "Weird" or "Not Weird."
+
+### Instructions
+
+1. Create a new Python file (e.g., `conditional_exercise.py`) for your program.
+
+2. Write a Python program that does the following:
+   - Takes an integer input from the user.
+   - Determines whether the input is "Weird" or "Not Weird" following the conditions mentioned earlier.
+   - Prints the result.
+
+3. Test your program with different inputs to ensure it behaves correctly.
+
+4. Share your code and the results of your tests in this repository.
+
+### Example
+
+```python
+# Sample Input
+N = int(input("Enter an integer: "))
+
+# Conditional checks
+if N % 2 == 1:
+    print("Weird")
+elif N % 2 == 0 and 2 <= N <= 5:
+    print("Not Weird")
+elif N % 2 == 0 and 6 <= N <= 20:
+    print("Weird")
+elif N % 2 == 0 and N > 20:
+    print("Not Weird")
+
 ## Contributing
 
 If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
