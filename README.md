@@ -243,7 +243,7 @@ Write a program that takes an integer input and follows the same conditional che
 
 ### Example
 
-```python
+
 # Sample Input
 N = int(input("Enter an integer: "))
 
