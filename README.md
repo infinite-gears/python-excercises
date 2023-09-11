@@ -256,6 +256,40 @@ elif N % 2 == 0 and 6 <= N <= 20:
     print("Weird")
 elif N % 2 == 0 and N > 20:
     print("Not Weird")
+## Exercise: Conditional Statements
+
+In this exercise, you'll practice using conditional statements by writing a Python program that determines whether an input integer is "Weird" or "Not Weird" based on specific conditions.
+
+**Script Name**: `weird_or_not_weird.py`
+
+### Instructions
+
+1. Create a new Python file (e.g., `weird_or_not_weird.py`) for your program.
+
+2. Write a Python program that does the following:
+   - Takes an integer input from the user.
+   - Determines whether the input is "Weird" or "Not Weird" following the conditions mentioned earlier.
+   - Prints the result.
+
+3. Test your program with different inputs to ensure it behaves correctly.
+
+4. Share your code and the results of your tests in this repository.
+
+### Example
+
+
+# Sample Input
+N = int(input("Enter an integer: "))
+
+# Conditional checks
+if N % 2 == 1:
+    print("Weird")
+elif N % 2 == 0 and 2 <= N <= 5:
+    print("Not Weird")
+elif N % 2 == 0 and 6 <= N <= 20:
+    print("Weird")
+elif N % 2 == 0 and N > 20:
+    print("Not Weird")
 
 ## Contributing
 
