@@ -137,7 +137,7 @@ If you'd like to contribute to this Python Exercises repository, please follow t
 
   2. Clone your forked repository to your local machine:
     
-```git clone https://github.com/your-username/python-exercises.git```
+  ```git clone https://github.com/your-username/python-exercises.git```
 
 
   Create a new branch for your contributions:
