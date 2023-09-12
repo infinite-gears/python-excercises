@@ -8,8 +8,9 @@ Welcome to the Python Exercises repository! This repository contains a collectio
 - [Getting Started](#getting-started)
 - [Exercises](#exercises)
   - [Python Scripts and Exercises](#python-scripts-and-exercises)
-  - [Example: Voting Eligibility Checker](#example-voting-eligibility-checker)
-  - [Exercise: Conditional Statements](#exercise-conditional-statements)   <!-- Added Exercise -->
+    - [Example: Voting Eligibility Checker](#example-voting-eligibility-checker)
+    - [Exercise: Conditional Statements](#exercise-conditional-statements)
+    - [Exercise: Age Classifier](#exercise-age-classifier)  <!-- Added Exercise Entry -->
 - [Solutions](#solutions)
 - [Contributing](#contributing)
 - [License](#license)
@@ -290,6 +291,58 @@ elif N % 2 == 0 and 6 <= N <= 20:
     print("Weird")
 elif N % 2 == 0 and N > 20:
     print("Not Weird")
+
+
+## Exercise: Age Classifier
+
+In this exercise, you will write a Python script named "age_classifier.py" to classify a person's age into different categories based on specific conditions. The script will take an integer representing a person's age as input and determine whether the person is young, a teenager, or old. Follow these steps to complete the exercise:
+
+### Instructions
+
+1. Create a new Python file named "age_classifier.py" in your repository.
+
+2. Inside "age_classifier.py," define a `Person` class with the following methods:
+
+    - `__init__(self, initialAge)`: A constructor that takes an integer `initialAge` as a parameter. It should check if `initialAge` is negative. If `initialAge` is negative, set the age to 0 and print "Age is not valid, setting age to 0." Otherwise, set the age to `initialAge`.
+
+    - `amIOld(self)`: A method that performs age-related checks and prints one of the following messages based on the age:
+        - If the age is less than 13, print "You are young."
+        - If the age is between 13 and 17 (inclusive), print "You are a teenager."
+        - If the age is 18 or older, print "You are old."
+
+    - `yearPasses(self)`: A method that increments the age of the person by 1.
+
+3. After defining the `Person` class and its methods, implement the following logic in your script:
+
+    - Read the number of test cases, `t`, from the user.
+
+    - For each test case, read an integer representing a person's age from the user.
+
+    - Create a `Person` object with the given age and use the `amIOld` method to print the appropriate message based on the age.
+
+    - Call the `yearPasses` method three times to simulate three years passing and then call the `amIOld` method again to print the updated age category.
+
+4. Test your "age_classifier.py" script with different inputs to ensure it behaves correctly.
+
+5. Share your code and the results of your tests in this repository.
+
+### Example
+
+Here's an example of how your "age_classifier.py" script should work:
+
+
+# Sample Input
+t = int(input("Enter the number of test cases: "))
+
+for i in range(t):
+    age = int(input("Enter the person's age: "))
+    p = Person(age)
+    p.amIOld()
+    for j in range(3):
+        p.yearPasses()
+    p.amIOld()
+    print("")
+
 
 ## Contributing
 
