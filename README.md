@@ -183,6 +183,12 @@ if __name__ == '__main__':
     # Your code goes here
 ```
 
+Constraints
+
+    The input integer n will be a positive integer.
+
+Feel free to try solving this exercise on your own. Once you have a solution, you can compare it to the provided starter code and explanation. Good luck!
+
 **Contributing**
 
 If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
