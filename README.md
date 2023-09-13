@@ -130,6 +130,59 @@ Instructions
 
     Share your code and the results of your tests in this repository.
 
+## Exercise: Multiples Printer
+
+### Problem Statement
+
+You are given an integer `n`. Your task is to write a Python script that prints the first 10 multiples of `n` in the following format:
+
+n x 1 = result
+n x 2 = result
+n x 3 = result
+...
+n x 10 = result
+
+
+Implement this in a Python script and make sure to use a loop to generate the multiples.
+
+### Example
+
+If the input is `3`, the output should be:
+
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+3 x 4 = 12
+3 x 5 = 15
+3 x 6 = 18
+3 x 7 = 21
+3 x 8 = 24
+3 x 9 = 27
+3 x 10 = 30
+
+
+### Explanation
+
+- You need to read an integer `n` as input.
+- Then, use a loop to calculate and print the first 10 multiples of `n` in the specified format.
+
+### Starter Code
+
+```python
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    # Your code goes here
+```
+
 **Contributing**
 
 If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
