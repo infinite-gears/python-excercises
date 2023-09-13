@@ -2,14 +2,15 @@
 
 Welcome to the Python Exercises repository! This repository contains a collection of Python exercises and solutions to help you improve your Python programming skills. Whether you're a beginner or an experienced developer, you can use these exercises to enhance your Python knowledge.
 
-## Table of Contents
+# Table of Contents
 
 - [Getting Started](#getting-started)
 - [Exercises](#exercises)
   - [Python Scripts and Exercises](#python-scripts-and-exercises)
     - [Example: Voting Eligibility Checker](#example-voting-eligibility-checker)
     - [Exercise: Conditional Statements](#exercise-conditional-statements)
-    - [Exercise: Age Classifier](#exercise-age-classifier)  <!-- Added Exercise Entry -->
+    - [Exercise: Age Classifier](#exercise-age-classifier)
+    - [Exercise: Multiples Printer](#exercise-multiples-printer) <!-- Added Exercise Entry -->
   - [Additional Exercises](#additional-exercises) <!-- Added Additional Exercises Entry -->
 - [Solutions](#solutions)
 - [Contributing](#contributing)
