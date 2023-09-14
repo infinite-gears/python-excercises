@@ -11,10 +11,42 @@ Welcome to the Python Exercises repository! This repository contains a collectio
     - [Exercise: Conditional Statements](#exercise-conditional-statements)
     - [Exercise: Age Classifier](#exercise-age-classifier)
     - [Exercise: Multiples Printer](#exercise-multiples-printer) <!-- Added Exercise Entry -->
+    - [Exercise: Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker) <!-- Added Factorial Exercise Entry -->
   - [Additional Exercises](#additional-exercises) <!-- Added Additional Exercises Entry -->
 - [Solutions](#solutions)
 - [Contributing](#contributing)
 - [License](#license)
+
+---
+
+## Exercise: Factorial and Even/Odd Checker
+
+Explain the significance of the `factorial_even_odd.py` script here and how it uses while loops, if statements, and user input to calculate the factorial of a number and determine if it's even or odd. This exercise showcases essential programming concepts and practical applications.
+
+## Explanation of Scripts
+
+### `string_indexing.py`
+
+This Python script deals with indexing and manipulating strings. It takes a string as input and separates its even-indexed and odd-indexed characters into two separate strings. Here's why it's important:
+
+- **String Manipulation:** This script demonstrates how to work with strings, which is a fundamental skill in programming. It shows how to iterate through characters in a string and create new strings based on specific conditions (even and odd indices).
+
+- **Indexing:** Understanding how to access characters at different indices within a string is crucial in various text-processing tasks.
+
+- **Loops and Conditionals:** It uses loops (for iterating through characters) and conditionals (if statements) to perform the task, which are essential programming constructs.
+
+### `factorial_even_odd.py`
+
+This Python script calculates the factorial of a given number and checks whether the result is even or odd. Here's why it's important:
+
+- **Factorial Calculation:** Calculating the factorial of a number is a common mathematical operation. This script demonstrates how to use a while loop to perform repetitive calculations until a certain condition is met.
+
+- **Conditional Statements:** It uses an if statement to check whether the factorial result is even or odd, showcasing the use of conditional logic in programming.
+
+- **User Input:** The script accepts user input, making it interactive and illustrating how to read input from the user.
+
+Both of these scripts provide valuable insights into basic programming concepts and practical applications of loops, conditionals, and string manipulation in Python.
+
 
 
 ## Getting Started
