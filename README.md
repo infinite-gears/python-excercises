@@ -149,6 +149,97 @@ Instructions
         Prints the result.
 
     Test your program with different inputs to ensure it behaves correctly.
+    
+## Exercise: Reverse an Array
+
+### Problem Statement
+
+You are given an array of integers. Your task is to write a Python script that prints the elements of the array in reverse order as a single line of space-separated numbers.
+
+Implement this in a Python script, where you read the size of the array and the array elements, reverse the array, and print it in reverse order.
+
+### Example
+
+If the input is:  4
+1 4 3 2
+
+The output should be:
+Certainly! Here's a name for the Python code:
+
+Name: reverse_array.py
+
+Now, let's organize an explanation and create an exercise entry for your help.md file:
+
+markdown
+
+# Table of Contents
+
+- [Getting Started](#getting-started)
+- [The Power of Python](#the-power-of-python)
+- [Exercises](#exercises)
+  - [Python Scripts and Exercises](#python-scripts-and-exercises)
+    - [Example: Voting Eligibility Checker](#example-voting-eligibility-checker)
+    - [Exercise: Conditional Statements](#exercise-conditional-statements)
+    - [Exercise: Age Classifier](#exercise-age-classifier)
+    - [Exercise: Multiples Printer](#exercise-multiples-printer)
+    - [Exercise: Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker)
+    - [Exercise: Reverse an Array](#exercise-reverse-an-array) <!-- Added Reverse Array Exercise Entry -->
+  - [Additional Exercises](#additional-exercises) <!-- Added Additional Exercises Entry -->
+- [Solutions](#solutions)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Exercise: Reverse an Array
+
+### Problem Statement
+
+You are given an array of integers. Your task is to write a Python script that prints the elements of the array in reverse order as a single line of space-separated numbers.
+
+Implement this in a Python script, where you read the size of the array and the array elements, reverse the array, and print it in reverse order.
+
+### Example
+
+If the input is:
+
+4
+1 4 3 2
+
+
+The output should be:
+
+2 3 4 1
+
+
+### Explanation
+
+- The script reads the size of the array (4) and the array elements (1, 4, 3, 2).
+- It reverses the array to obtain [2, 3, 4, 1].
+- Finally, it prints the reversed array as a single line of space-separated numbers.
+
+### Starter Code
+
+```python
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    arr = list(map(int, input().rstrip().split()))
+
+    # Reverse the array and print it
+    reversed_arr = arr[::-1]
+    print(" ".join(map(str, reversed_arr)))
+```
+
+
 
 ## Exercise: Age Classifier
 
