@@ -12,6 +12,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
     - [Exercise: Conditional Statements](#exercise-conditional-statements)
     - [Exercise: Age Classifier](#exercise-age-classifier)
     - [Exercise: Multiples Printer](#exercise-multiples-printer) <!-- Added Exercise Entry -->
+    - - [Exercise: Reverse an Array](#exercise-reverse-an-array) <!-- Added Reverse Array Exercise Entry -->
     - [Exercise: Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker) <!-- Added Factorial Exercise Entry -->
   - [Additional Exercises](#additional-exercises) <!-- Added Additional Exercises Entry -->
 - [Solutions](#solutions)
