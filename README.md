@@ -335,6 +335,59 @@ Not found
 harry=12299933
 
 
+### Explanation
+
+We add the following (Name, Phone Number) pairs to our map so it looks like this:
+
+- `sam` -> `99912222`
+- `tom` -> `11122222`
+- `harry` -> `12299933`
+
+We then process each query and print `name=phoneNumber` if the queried name is found in the phone book; otherwise, we print "Not found."
+
+**Query 1:** `sam` - Sam is one of the keys in our dictionary, so we print `sam=99912222`.
+**Query 2:** `edward` - Edward is not one of the keys in our dictionary, so we print "Not found."
+**Query 3:** `harry` - Harry is one of the keys in our dictionary, so we print `harry=12299933`.
+
+### Starter Code
+
+```python
+# Read the number of entries in the phone book
+n = int(input())
+
+# Initialize an empty phone book (dictionary)
+phone_book = {}
+
+# Read and store the phone book entries
+for _ in range(n):
+    entry = input().split()
+    name, phone_number = entry[0], entry[1]
+    phone_book[name] = phone_number
+
+# Read and process the queries
+while True:
+    try:
+        query = input()
+        if query in phone_book:
+            print(f"{query}={phone_book[query]}")
+        else:
+            print("Not found")
+    except EOFError:
+        break
+```
+
+***Constraints***
+
+    The array size n will be between 1 and 1000.
+    Names consist of lowercase English alphabetic letters and are first names only.
+    Phone numbers are 10-digit integers.
+
+    
+This exercise provides practice in creating a phone book, storing entries in a dictionary, and looking up names and phone numbers.
+
+---
+
+
 **Contributing**
 
 If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
