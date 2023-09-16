@@ -14,12 +14,12 @@ Welcome to the Python Exercises repository! This repository contains a collectio
     - [Exercise: Multiples Printer](#exercise-multiples-printer) <!-- Added Exercise Entry -->
       - [Exercise: Reverse an Array](#exercise-reverse-an-array) <!-- Added Reverse Array Exercise Entry -->
     - [Exercise: Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker) <!-- Added Factorial Exercise Entry -->
+    - [Exercise: Phone Book](#exercise-phone-book) <!-- Added Phone Book Exercise Entry -->
   - [Additional Exercises](#additional-exercises) <!-- Added Additional Exercises Entry -->
 - [Solutions](#solutions)
 - [Contributing](#contributing)
 - [License](#license)
 
----
 
 ## The Power of Python
 
