@@ -297,6 +297,44 @@ Constraints
 
 Feel free to try solving this exercise on your own. Once you have a solution, you can compare it to the provided starter code and explanation. Good luck!
 
+## Exercise: Phone Book
+
+### Problem Statement
+
+You are given a list of names and phone numbers, and your task is to create a phone book (dictionary) mapping names to their respective phone numbers. You will also handle queries to look up phone numbers by name. If a name is found in the phone book, print the associated phone number; otherwise, print "Not found."
+
+Implement this in a Python script that reads the number of entries, stores the phone book entries, and processes queries until there is no more input.
+
+### Input Format
+
+The first line contains an integer, `n`, denoting the number of entries in the phone book.
+Each of the subsequent `n` lines describes an entry in the form of space-separated values. The first value is a friend's name, and the second value is a 10-digit phone number.
+After the `n` lines of phone book entries, there are an unknown number of lines of queries. Each line (query) contains a name to look up.
+
+### Output Format
+
+For each query, print "Not found" if the name has no corresponding entry in the phone book; otherwise, print the full name and phone number in the format `name=phoneNumber`.
+
+### Example
+
+**Sample Input**
+
+3
+sam 99912222
+tom 11122222
+harry 12299933
+sam
+edward
+harry
+
+
+**Sample Output**
+
+sam=99912222
+Not found
+harry=12299933
+
+
 **Contributing**
 
 If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
