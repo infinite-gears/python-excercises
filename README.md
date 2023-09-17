@@ -388,6 +388,20 @@ This exercise provides practice in creating a phone book, storing entries in a d
 
 ---
 
+## Exercise: Recursive Factorial
+
+### Problem Statement
+
+You are tasked with implementing a Python function to calculate the factorial of a given integer `n` using recursion.
+
+Implement the `factorial` function, which takes an integer `n` as a parameter and returns the factorial of `n`.
+
+### Example
+
+**Sample Input**
+
+3
+
 
 **Contributing**
 
