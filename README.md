@@ -20,10 +20,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
 - [Solutions](#solutions)
   - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones) <!-- Added Solution Entry -->
 - [Contributing](#contributing)
-- [License](#license)
-
-
-
+- [License]
 
 ## The Power of Python
 
@@ -40,7 +37,6 @@ Python is a versatile and powerful programming language known for its simplicity
 - **Versatility:** Python can be used for web development, automation, scientific computing, data analysis, machine learning, and more.
 
 This series of exercises will introduce you to the fundamentals of Python programming and showcase its power through practical examples and applications.
-
 
 ---
 
@@ -72,99 +68,107 @@ This Python script calculates the factorial of a given number and checks whether
 
 Both of these scripts provide valuable insights into basic programming concepts and practical applications of loops, conditionals, and string manipulation in Python.
 
-
-
 ## Getting Started
 
 To get started with these Python exercises, follow these steps:
 
 1. Clone this repository to your local machine:
 
-     ```git clone https://github.com/infinite-gears/python-exercises.git```
-   
+   ```git clone https://github.com/infinite-gears/python-exercises.git```
+
 2. Navigate to the repository directory:
 
    ```cd python-exercises```
 
-3.     Start working on the exercises and improving your Python skills!
+3. Start working on the exercises and improving your Python skills!
 
 ## Python Scripts and Exercises
 
 In this repository, you'll find a collection of Python scripts that cover various simple tasks and exercises. These scripts are designed to help you practice your Python programming skills and understand fundamental concepts.
-Python Scripts
+
+### Python Scripts
 
 We've included Python scripts for tasks like:
 
-    Data Manipulation: Scripts to manipulate data, such as string operations and list manipulations.
+- Data Manipulation: Scripts to manipulate data, such as string operations and list manipulations.
 
-    Mathematics: Scripts for performing basic mathematical operations and solving mathematical problems.
+- Mathematics: Scripts for performing basic mathematical operations and solving mathematical problems.
 
-    File Handling: Scripts to read from and write to files, including text and CSV files.
+- File Handling: Scripts to read from and write to files, including text and CSV files.
 
-    User Input: Examples of how to take user input and process it in Python.
+- User Input: Examples of how to take user input and process it in Python.
 
-    Control Structures: Scripts demonstrating the use of control structures like loops and conditionals.
+- Control Structures: Scripts demonstrating the use of control structures like loops and conditionals.
 
-## How to Use
+### How to Use
 
-    Clone or Download: You can clone this repository or download the contents to your local machine.
+- Clone or Download: You can clone this repository or download the contents to your local machine.
 
-    Explore the PythonScripts Directory: Navigate to the PythonScripts directory to find the Python scripts organized by categories.
+- Explore the PythonScripts Directory: Navigate to the PythonScripts directory to find the Python scripts organized by categories.
 
-    Run the Scripts: Open the scripts in your favorite Python IDE or text editor. You can run them and modify them to experiment with different inputs and scenarios.
+- Run the Scripts: Open the scripts in your favorite Python IDE or text editor. You can run them and modify them to experiment with different inputs and scenarios.
 
 ## Exercises
 
 In addition to the scripts, we've included exercises to test your understanding of Python concepts. These exercises are located in the Exercises directory.
-Additional Exercises
+
+### Additional Exercises
 
 Feel free to add more exercises to this repository to challenge yourself and others. To contribute additional exercises, please follow the Contributing guidelines below.
-Exercise: Calculate the Fibonacci Sequence
+
+#### Exercise: Calculate the Fibonacci Sequence
 
 In this exercise, you'll write a Python program to calculate the Fibonacci sequence up to a specified number of terms. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1.
 
-Script Name: fibonacci.py
-Instructions
+**Script Name:** `fibonacci.py`
 
-    Create a new Python file named fibonacci.py.
+**Instructions**
 
-    Write a function calculate_fibonacci(n) that takes an integer n as input and returns a list containing the first n Fibonacci numbers.
+1. Create a new Python file named `fibonacci.py`.
 
-    Implement the function using a loop or recursion.
+2. Write a function `calculate_fibonacci(n)` that takes an integer `n` as input and returns a list containing the first `n` Fibonacci numbers.
 
-    In your fibonacci.py script, take user input for the number of terms they want in the Fibonacci sequence.
+3. Implement the function using a loop or recursion.
 
-    Call the calculate_fibonacci function with the user's input and print the resulting list of Fibonacci numbers.
+4. In your `fibonacci.py` script, take user input for the number of terms they want in the Fibonacci sequence.
 
-    Test your program with different values of n to verify its correctness.
+5. Call the `calculate_fibonacci` function with the user's input and print the resulting list of Fibonacci numbers.
 
-## Exercise: Conditional Statements
+6. Test your program with different values of `n` to verify its correctness.
+
+#### Exercise: Conditional Statements
 
 In this exercise, you'll practice using conditional statements by writing a Python program that determines whether an input integer is "Weird" or "Not Weird" based on specific conditions.
 
-Script Name: weird_or_not_weird.py
-Instructions
+**Script Name:** `weird_or_not_weird.py`
 
-    Create a new Python file (e.g., weird_or_not_weird.py) for your program.
+**Instructions**
 
-    Write a Python program that does the following:
-        Takes an integer input from the user.
-        Determines whether the input is "Weird" or "Not Weird" following the conditions mentioned earlier.
-        Prints the result.
+1. Create a new Python file (e.g., `weird_or_not_weird.py`) for your program.
 
-    Test your program with different inputs to ensure it behaves correctly.
+2. Write a Python program that does the following:
 
-## Exercise: Reverse an Array
+   - Takes an integer input from the user.
 
-### Problem Statement
+   - Determines whether the input is "Weird" or "Not Weird" following the conditions mentioned earlier.
+
+   - Prints the result.
+
+3. Test your program with different inputs to ensure it behaves correctly.
+
+#### Exercise: Reverse an Array
+
+**Problem Statement**
 
 You are given an array of integers. Your task is to write a Python script that prints the elements of the array in reverse order as a single line of space-separated numbers.
 
-Implement this in a Python script, where you read the size of the array and the array elements, reverse the array, and print it in reverse order.
+**Implement this in a Python script**, where you read the size of the array and the array elements, reverse the array, and print it in reverse order.
 
-### Example
+**Example**
 
 If the input is:
+
+
 
 4
 1 4 3 2
