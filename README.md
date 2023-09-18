@@ -452,6 +452,81 @@ if __name__ == '__main__':
 
 This exercise provides practice in implementing a recursive function to calculate factorials in Python.
 
+---
+
+## Exercise: Maximum Consecutive Ones
+
+### Problem Statement
+
+You are given a base-10 integer, and your task is to convert it to binary and find the maximum number of consecutive '1's in its binary representation.
+
+Implement the `max_consecutive_ones` function, which takes an integer `n` as a parameter and returns the maximum number of consecutive '1's in the binary representation of `n`.
+
+### Example
+
+
+### Starter Code
+
+```python
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+def max_consecutive_ones(n):
+    # Write your code here
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    result = max_consecutive_ones(n)
+    print(result)
+```
+Constraints
+
+    n is a non-negative integer.
+
+This exercise provides practice in converting numbers to binary and finding the maximum consecutive ones in their binary representation.
+
+
+**Solution Section for `help.md`:**
+
+```markdown
+### Solution: Maximum Consecutive Ones
+
+Here's a Python solution for finding the maximum consecutive ones in the binary representation of a given integer:
+
+```python
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+def max_consecutive_ones(n):
+    binary_str = bin(n)[2:]  # Convert to binary and remove the '0b' prefix
+    max_consecutive = 0
+    current_consecutive = 0
+
+    for char in binary_str:
+        if char == '1':
+            current_consecutive += 1
+            max_consecutive = max(max_consecutive, current_consecutive)
+        else:
+            current_consecutive = 0
+
+    return max_consecutive
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    result = max_consecutive_ones(n)
+    print(result)
+```
+
 **Contributing**
 
 If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
