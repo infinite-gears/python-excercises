@@ -526,6 +526,7 @@ if __name__ == '__main__':
     result = max_consecutive_ones(n)
     print(result)
 ```
+***You can use this code to find the maximum consecutive ones in the binary representation of an integer.***
 
 **Contributing**
 
