@@ -12,7 +12,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
     - [Exercise: Conditional Statements](#exercise-conditional-statements)
     - [Exercise: Age Classifier](#exercise-age-classifier)
     - [Exercise: Multiples Printer](#exercise-multiples-printer) <!-- Added Exercise Entry -->
-      - [Exercise: Reverse an Array](#exercise-reverse-an-array) <!-- Added Reverse Array Exercise Entry -->
+    - [Exercise: Reverse an Array](#exercise-reverse-an-array) <!-- Added Reverse Array Exercise Entry -->
     - [Exercise: Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker) <!-- Added Factorial Exercise Entry -->
     - [Exercise: Recursive Factorial](#exercise-recursive-factorial) <!-- Added Recursive Factorial Exercise Entry -->
     - [Exercise: Maximum Consecutive Ones](#exercise-maximum-consecutive-ones) <!-- Added Maximum Consecutive Ones Exercise Entry -->
