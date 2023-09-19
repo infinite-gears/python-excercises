@@ -17,6 +17,9 @@ Welcome to the Python Exercises repository! This repository contains a collectio
     - [Exercise: Recursive Factorial](#exercise-recursive-factorial) <!-- Added Recursive Factorial Exercise Entry -->
     - [Exercise: Maximum Consecutive Ones](#exercise-maximum-consecutive-ones) <!-- Added Maximum Consecutive Ones Exercise Entry -->
   - [Additional Exercises](#additional-exercises) <!-- Added Additional Exercises Entry -->
+- [Hourglass Sum Calculator](#hourglass-sum-calculator) <!-- Added Hourglass Sum Calculator Entry -->
+  - [Usage](#usage)
+  - [Algorithm](#algorithm) <!-- Added Algorithm Entry -->
 - [Solutions](#solutions)
   - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones) <!-- Added Solution Entry -->
 - [Contributing](#contributing)
