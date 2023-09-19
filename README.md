@@ -23,7 +23,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
 - [Solutions](#solutions)
   - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones) <!-- Added Solution Entry -->
 - [Contributing](#contributing)
-- [License]
+- [License](#license) <!-- Added License Entry -->
 
 ## The Power of Python
 
