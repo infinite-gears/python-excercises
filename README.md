@@ -535,6 +535,50 @@ if __name__ == '__main__':
 ```
 ***You can use this code to find the maximum consecutive ones in the binary representation of an integer.***
 
+
+# Exercise: Calculate Maximum Hourglass Sum
+
+In this exercise, you are tasked with writing Python code to calculate the maximum hourglass sum in a given 6x6 2D array. An hourglass is a subset of values with indices falling in a specific pattern within the array. Your goal is to find the hourglass with the highest sum.
+
+## Code Explanation
+
+```python
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+if __name__ == '__main__':
+    arr = []
+
+    for _ in range(6):
+        arr.append(list(map(int, input().rstrip().split())))
+
+    # Initialize a variable to store the maximum hourglass sum.
+    max_hourglass_sum = -63  # Minimum possible value for a single cell (-9 to 9 for each cell).
+
+    # Iterate through the 2D array to calculate hourglass sums.
+    for i in range(4):
+        for j in range(4):
+            # Calculate the sum of the current hourglass.
+            hourglass_sum = (
+                arr[i][j] + arr[i][j + 1] + arr[i][j + 2] +
+                arr[i + 1][j + 1] +
+                arr[i + 2][j] + arr[i + 2][j + 1] + arr[i + 2][j + 2]
+            )
+            # Update the maximum hourglass sum if necessary.
+            max_hourglass_sum = max(max_hourglass_sum, hourglass_sum)
+
+    # Print the maximum hourglass sum.
+    print(max_hourglass_sum)
+```
+To solve the exercise, you can use the provided Python code. It reads a 6x6 2D array from the user, calculates the maximum hourglass sum, and prints the result.
+
+Make sure to test the code with different arrays to verify its correctness and understand how it works
+
 **Contributing**
 
 If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
