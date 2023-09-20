@@ -15,8 +15,10 @@ Welcome to the Python Exercises repository! This repository contains a collectio
     - [Exercise: Reverse an Array](#exercise-reverse-an-array) <!-- Added Reverse Array Exercise Entry -->
     - [Exercise: Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker) <!-- Added Factorial Exercise Entry -->
     - [Exercise: Recursive Factorial](#exercise-recursive-factorial) <!-- Added Recursive Factorial Exercise Entry -->
+    - [Exercise: Maximum Hourglass Sum Calculator](#exercise-maximum-hourglass-sum-calculator) <!-- Added Hourglass Sum Calculator Exercise Entry -->
     - [Exercise: Maximum Consecutive Ones](#exercise-maximum-consecutive-ones) <!-- Added Maximum Consecutive Ones Exercise Entry -->
   - [Additional Exercises](#additional-exercises) <!-- Added Additional Exercises Entry -->
+- [Sum of Two Integers Calculator](#sum-of-two-integers-calculator) <!-- Added Sum of Two Integers Calculator Entry -->
 - [Hourglass Sum Calculator](#hourglass-sum-calculator) <!-- Added Hourglass Sum Calculator Entry -->
   - [Usage](#usage)
   - [Algorithm](#algorithm) <!-- Added Algorithm Entry -->
@@ -24,6 +26,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
   - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones) <!-- Added Solution Entry -->
 - [Contributing](#contributing)
 - [License](#license) <!-- Added License Entry -->
+
 
 ## The Power of Python
 
