@@ -579,6 +579,43 @@ To solve the exercise, you can use the provided Python code. It reads a 6x6 2D a
 
 Make sure to test the code with different arrays to verify its correctness and understand how it works
 
+# Exercise: Sum of Two Integers Calculator
+
+In this exercise, you'll create a Python program that calculates the sum of two integers entered by the user. You will also turn this program into an exercise to practice your programming skills.
+
+## Code Explanation
+
+```python
+# Sum of Two Integers Calculator
+
+def solveMeFirst(a, b):
+    # Calculate the sum of a and b
+    return a + b
+
+# Read the input values
+num1 = int(input("Enter the first integer: "))
+num2 = int(input("Enter the second integer: "))
+
+# Calculate the sum using the solveMeFirst function
+result = solveMeFirst(num1, num2)
+
+# Print the result
+print("The sum of {} and {} is: {}".format(num1, num2, result))
+```
+***Your Task***
+
+    Copy the code provided above into a Python script.
+    Run the script and test it by entering different pairs of integers.
+    Observe how the program calculates and displays the sum of the two integers.
+
+***Exercise Questions***
+
+    What is the purpose of the solveMeFirst function in the code?
+    How does the program handle user input and display the result?
+    Can you modify the program to handle decimal numbers instead of integers?
+
+Feel free to experiment with the code and explore ways to improve or extend its functionality.
+
 **Contributing**
 
 If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
