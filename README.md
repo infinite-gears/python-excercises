@@ -2,6 +2,10 @@
 
 Welcome to the Python Exercises repository! This repository contains a collection of Python exercises and solutions to help you improve your Python programming skills. Whether you're a beginner or an experienced developer, you can use these exercises to enhance your Python knowledge.
 
+# Python Exercises Repository
+
+Welcome to the Python Exercises repository! This repository contains a collection of Python exercises and solutions to help you improve your Python programming skills. Whether you're a beginner or an experienced developer, you can use these exercises to enhance your Python knowledge.
+
 # Table of Contents
 
 - [Getting Started](#getting-started)
@@ -17,8 +21,8 @@ Welcome to the Python Exercises repository! This repository contains a collectio
     - [Exercise: Recursive Factorial](#exercise-recursive-factorial) <!-- Added Recursive Factorial Exercise Entry -->
     - [Exercise: Maximum Hourglass Sum Calculator](#exercise-maximum-hourglass-sum-calculator) <!-- Added Hourglass Sum Calculator Exercise Entry -->
     - [Exercise: Maximum Consecutive Ones](#exercise-maximum-consecutive-ones) <!-- Added Maximum Consecutive Ones Exercise Entry -->
+    - [Exercise: Sum of Two Integers Calculator](#exercise-sum-of-two-integers-calculator) <!-- Added Sum of Two Integers Calculator Entry -->
   - [Additional Exercises](#additional-exercises) <!-- Added Additional Exercises Entry -->
-- [Sum of Two Integers Calculator](#sum-of-two-integers-calculator) <!-- Added Sum of Two Integers Calculator Entry -->
 - [Hourglass Sum Calculator](#hourglass-sum-calculator) <!-- Added Hourglass Sum Calculator Entry -->
   - [Usage](#usage)
   - [Algorithm](#algorithm) <!-- Added Algorithm Entry -->
