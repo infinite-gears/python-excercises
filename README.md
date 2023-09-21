@@ -646,6 +646,44 @@ class Book(object, metaclass=ABCMeta):
     def display(self):
         pass
 ```
+Replace [title], [author], and [price] with the actual values of the book.
+
+**Exercise: Creating an Instance of MyBook**
+
+**Objective:**
+
+In this exercise, you will practice creating an instance of the MyBook class and calling its display method to print the book's information.
+
+**Instructions:**
+
+- Create a Python script or use an interactive environment to write and test the code for the MyBook class.
+- Input values for a book's title, author, and price.
+- Create an instance of the MyBook class using the provided input values.
+- Call the display method on the MyBook instance to print the book's information.
+- Verify that the information displayed matches the input values.
+
+**Section: Inheritance and Abstract Classes**
+
+**Introduction:**
+
+Inheritance is a fundamental concept in object-oriented programming (OOP) that allows you to create a new class (derived or subclass) based on an existing class (base or superclass). In Python, you can implement inheritance to reuse the properties and methods of a base class in a derived class.
+
+Abstract classes are classes that cannot be instantiated on their own and are often used as base classes. They can contain abstract methods, which are methods without a defined implementation. Subclasses inheriting from abstract classes must provide concrete implementations for these abstract methods.
+
+**Key Concepts:**
+
+- Base Class (Superclass): The class from which another class (derived class) inherits properties and methods.
+- Derived Class (Subclass): The class that inherits properties and methods from a base class.
+- Abstract Class: A class that cannot be instantiated and may contain abstract methods.
+- Abstract Method: A method declared in an abstract class without implementation, to be defined by subclasses.
+
+**Examples:**
+
+In this section, we explored the implementation of inheritance and abstract classes through the Book and MyBook classes. The Book class serves as an abstract base class with an abstract display method. The MyBook class inherits from Book and provides a concrete implementation of the display method to display book information.
+
+**Summary:**
+
+Inheritance and abstract classes are powerful features in Python that allow you to create hierarchical class structures and enforce method implementations in derived classes. Understanding these concepts is essential for building reusable and structured code in object-oriented programming.
 
 **Contributing**
 
