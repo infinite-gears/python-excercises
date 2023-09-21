@@ -9,27 +9,28 @@ Welcome to the Python Exercises repository! This repository contains a collectio
 # Table of Contents
 
 - [Getting Started](#getting-started)
-- [The Power of Python](#the-power-of-python) <!-- Added Python Introduction -->
+- [The Power of Python](#the-power-of-python)
 - [Exercises](#exercises)
   - [Python Scripts and Exercises](#python-scripts-and-exercises)
     - [Example: Voting Eligibility Checker](#example-voting-eligibility-checker)
     - [Exercise: Conditional Statements](#exercise-conditional-statements)
     - [Exercise: Age Classifier](#exercise-age-classifier)
-    - [Exercise: Multiples Printer](#exercise-multiples-printer) <!-- Added Exercise Entry -->
-    - [Exercise: Reverse an Array](#exercise-reverse-an-array) <!-- Added Reverse Array Exercise Entry -->
-    - [Exercise: Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker) <!-- Added Factorial Exercise Entry -->
-    - [Exercise: Recursive Factorial](#exercise-recursive-factorial) <!-- Added Recursive Factorial Exercise Entry -->
-    - [Exercise: Maximum Hourglass Sum Calculator](#exercise-maximum-hourglass-sum-calculator) <!-- Added Hourglass Sum Calculator Exercise Entry -->
-    - [Exercise: Maximum Consecutive Ones](#exercise-maximum-consecutive-ones) <!-- Added Maximum Consecutive Ones Exercise Entry -->
-    - [Exercise: Sum of Two Integers Calculator](#exercise-sum-of-two-integers-calculator) <!-- Added Sum of Two Integers Calculator Entry -->
-  - [Additional Exercises](#additional-exercises) <!-- Added Additional Exercises Entry -->
-- [Hourglass Sum Calculator](#hourglass-sum-calculator) <!-- Added Hourglass Sum Calculator Entry -->
+    - [Exercise: Multiples Printer](#exercise-multiples-printer)
+    - [Exercise: Reverse an Array](#exercise-reverse-an-array)
+    - [Exercise: Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker)
+    - [Exercise: Recursive Factorial](#exercise-recursive-factorial)
+    - [Exercise: Maximum Hourglass Sum Calculator](#exercise-maximum-hourglass-sum-calculator)
+    - [Exercise: Maximum Consecutive Ones](#exercise-maximum-consecutive-ones)
+    - [Exercise: Sum of Two Integers Calculator](#exercise-sum-of-two-integers-calculator)
+    - [Python Program: Book Inheritance](#python-program-book-inheritance) <!-- Added Python Program Entry -->
+  - [Additional Exercises](#additional-exercises)
+- [Hourglass Sum Calculator](#hourglass-sum-calculator)
   - [Usage](#usage)
-  - [Algorithm](#algorithm) <!-- Added Algorithm Entry -->
+  - [Algorithm](#algorithm)
 - [Solutions](#solutions)
-  - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones) <!-- Added Solution Entry -->
+  - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones)
 - [Contributing](#contributing)
-- [License](#license) <!-- Added License Entry -->
+- [License](#license)
 
 
 ## The Power of Python
