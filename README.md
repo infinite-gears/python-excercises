@@ -624,6 +624,29 @@ print("The sum of {} and {} is: {}".format(num1, num2, result))
 
 Feel free to experiment with the code and explore ways to improve or extend its functionality.
 
+**Task: Implementing a Book Class with Inheritance**
+
+**Objective:**
+
+In this task, you will practice working with inheritance and abstract classes in Python. Your goal is to create a class called MyBook that inherits from an abstract base class Book. You will implement the display method to display information about a book.
+
+**Instructions:**
+
+Start with the provided abstract base class Book, which has an abstract method display.
+
+```
+from abc import ABCMeta, abstractmethod
+
+class Book(object, metaclass=ABCMeta):
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    @abstractmethod
+    def display(self):
+        pass
+```
+
 **Contributing**
 
 If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
