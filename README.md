@@ -23,6 +23,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
     - [Exercise: Maximum Consecutive Ones](#exercise-maximum-consecutive-ones)
     - [Exercise: Sum of Two Integers Calculator](#exercise-sum-of-two-integers-calculator)
     - [Python Program: Book Inheritance](#python-program-book-inheritance) <!-- Added Python Program Entry -->
+    - [Exercise: Maximum Difference](#exercise-maximum-difference) <!-- Added Maximum Difference Exercise Entry -->
   - [Additional Exercises](#additional-exercises)
 - [Hourglass Sum Calculator](#hourglass-sum-calculator)
   - [Usage](#usage)
@@ -31,6 +32,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
   - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones)
 - [Contributing](#contributing)
 - [License](#license)
+
 
 
 ## The Power of Python
