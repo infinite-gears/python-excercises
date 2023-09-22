@@ -687,6 +687,37 @@ In this section, we explored the implementation of inheritance and abstract clas
 
 Inheritance and abstract classes are powerful features in Python that allow you to create hierarchical class structures and enforce method implementations in derived classes. Understanding these concepts is essential for building reusable and structured code in object-oriented programming.
 
+## Exercise: Maximum Difference
+
+**Objective:**
+
+In this exercise, you will work with a Python class to find the maximum absolute difference between two integers in a set of positive integers. You will complete the `Difference` class by implementing a constructor and a `computeDifference` method.
+
+**Instructions:**
+
+1. Open the provided Python script, `maximum_difference.py`.
+
+2. Inside the `Difference` class:
+   - Implement the constructor `__init__` to initialize the private instance variable `__elements` with the given array of integers.
+
+   - Implement the `computeDifference` method to find the maximum absolute difference between any two numbers in the `__elements` array and store it in the `maximumDifference` instance variable.
+
+3. The script reads the input, creates an instance of the `Difference` class, calls the `computeDifference` method, and prints the `maximumDifference`.
+
+4. Run the script and verify that it correctly calculates and displays the maximum absolute difference.
+
+5. Record your code and the results in this section.
+
+**Sample Input:**
+5
+1 7 12 9 5
+
+**Sample Output:**
+
+11
+
+
+
 **Contributing**
 
 If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
