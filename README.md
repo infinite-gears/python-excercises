@@ -717,6 +717,11 @@ In this exercise, you will work with a Python class to find the maximum absolute
 11
 
 
+In this example, the maximum absolute difference is 11, which is the difference between 12 and 1.
+
+Remember to explore the code, understand how the class works, and ensure your implementation finds the maximum difference correctly.
+
+
 
 **Contributing**
 
