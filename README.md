@@ -721,6 +721,32 @@ In this example, the maximum absolute difference is 11, which is the difference 
 
 Remember to explore the code, understand how the class works, and ensure your implementation finds the maximum difference correctly.
 
+# Create the Difference class
+class Difference:
+    def __init__(self, a):
+        self.__elements = a
+        self.maximumDifference = None
+
+    def computeDifference(self):
+        # Find the maximum and minimum elements in the array
+        max_element = max(self.__elements)
+        min_element = min(self.__elements)
+        
+        # Calculate the maximum absolute difference
+        self.maximumDifference = abs(max_element - min_element)
+
+# Input values for the array of integers
+n = int(input("Enter the number of elements: "))
+elements = list(map(int, input("Enter space-separated integers: ").split()))
+
+# Create an instance of the Difference class
+d = Difference(elements)
+
+# Compute the maximum difference
+d.computeDifference()
+
+# Print the maximum difference
+print("Maximum Difference:", d.maximumDifference)
 
 
 **Contributing**
