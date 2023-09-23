@@ -506,6 +506,27 @@ Constraints
     n is a non-negative integer.
 
 This exercise provides practice in converting numbers to binary and finding the maximum consecutive ones in their binary representation.
+**Exercise: Maximum Difference**
+
+**Objective:**
+
+In this exercise, you will practice working with classes and linked lists. Your goal is to create a Python program that defines a Node class and a Solution class. The Solution class should implement an insert method that adds nodes to the end of a linked list and a display method to print the linked list.
+
+**Instructions:**
+
+1. Start by defining a Node class with the following attributes:
+   - An integer data field, `data`.
+   - A reference to the next node, `next`, which is initialized to `None` in the constructor.
+
+2. Create a Solution class with the following methods:
+   - `insert(self, head, data)`: This method should insert a new node with the given data at the end of the linked list. If the linked list is empty, the new node should become the head of the list. Return the head of the updated linked list.
+   - `display(self, head)`: This method should print the elements of the linked list separated by spaces.
+
+3. In the main function:
+   - Create a variable `head` and initialize it to `None`.
+   - Read an integer `T` from the user, which represents the number of elements to insert.
+   - Loop `T` times and for each iteration, read an integer `data` from the user and insert it into the linked list using the `insert` method.
+   - Finally, call the `display` method to print the elements of the linked list.
 
 
 **Solution Section for `help.md`:**
