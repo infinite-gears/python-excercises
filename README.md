@@ -768,7 +768,33 @@ d.computeDifference()
 
 # Print the maximum difference
 print("Maximum Difference:", d.maximumDifference)
+## Exercise: Minimum Difference
 
+**Objective:**
+
+In this exercise, you will work with arrays in Python. Your goal is to find the minimum difference between any two elements in a given array.
+
+**Instructions:**
+
+You are given an array of integers. Write a function `minimum_difference(arr)` that takes the array as input and returns the minimum difference between any two elements in the array.
+
+**Example:**
+
+Input: [3, 8, 10, 23, 5]
+Output: 2 (The minimum difference is between 3 and 5)
+
+Input: [1, 5, 7, 9, 12]
+Output: 2 (The minimum difference is between 5 and 7)
+
+Input: [7, 21, 33, 44, 6]
+Output: 1 (The minimum difference is between 33 and 44)
+
+You can assume that the input array contains at least two elements.
+
+```python
+def minimum_difference(arr):
+    # Your code here
+```
 
 **Contributing**
 
