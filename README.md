@@ -558,6 +558,7 @@ print("Maximum Difference:", max_diff)
 # Please ensure that your contributions align with the style and structure of the existing content.
 
 # License
-# This Python Exercises repository is licensed under the MIT License. Feel free to use, modify, and distribute the content for personal or educational purposes.
+# This Python Exercises repository is licensed under the MIT License. 
+# You are free to use, modify, and distribute the content for personal or educational purposes.
 
 # Happy coding, and enjoy improving your Python skills!
