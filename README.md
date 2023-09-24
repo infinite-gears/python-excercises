@@ -540,12 +540,9 @@ nums = [2, 3, 10, 6, 4, 8, 1]
 max_diff = find_max_difference(nums)
 print("Maximum Difference:", max_diff)
 
-"""
-This function iterates through the input list and keeps track of the minimum value encountered so far (min_num) and the maximum difference encountered so far (max_diff). It updates max_diff whenever a larger difference is found. The final max_diff represents the maximum difference between any two elements in the list.
+# Contributing and License
 
-Feel free to use these solutions as references when solving the exercises on your own. Additionally, you can explore and experiment with the provided exercises to further enhance your Python programming skills.
-
-Contributing
+```plaintext
 Contributions to this Python Exercises repository are welcome! If you'd like to add more exercises, improve existing ones, or suggest new features or improvements, please follow these guidelines:
 
 1. Fork this repository.
@@ -555,12 +552,3 @@ Contributions to this Python Exercises repository are welcome! If you'd like to 
 5. Commit your changes and create a descriptive commit message.
 6. Push your changes to your forked repository.
 7. Create a pull request to merge your changes into this repository.
-
-Please ensure that your contributions align with the style and structure of the existing content.
-
-License
-This Python Exercises repository is licensed under the MIT License. 
-You are free to use, modify, and distribute the content for personal or educational purposes.
-
-Happy coding, and enjoy improving your Python skills!
-"""
