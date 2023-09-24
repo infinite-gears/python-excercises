@@ -552,7 +552,7 @@ Contributions to this Python Exercises repository are welcome! If you'd like to 
 5. Commit your changes and create a descriptive commit message.
 6. Push your changes to your forked repository.
 7. Create a pull request to merge your changes into this repository.
-
+```
 
 # License
 
