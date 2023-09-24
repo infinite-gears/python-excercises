@@ -12,18 +12,22 @@ Welcome to the Python Exercises repository! This repository contains a collectio
 - [The Power of Python](#the-power-of-python)
 - [Exercises](#exercises)
   - [Python Scripts and Exercises](#python-scripts-and-exercises)
-    - [Example: Voting Eligibility Checker](#example-voting-eligibility-checker)
-    - [Exercise: Conditional Statements](#exercise-conditional-statements)
-    - [Exercise: Age Classifier](#exercise-age-classifier)
-    - [Exercise: Multiples Printer](#exercise-multiples-printer)
-    - [Exercise: Reverse an Array](#exercise-reverse-an-array)
-    - [Exercise: Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker)
-    - [Exercise: Recursive Factorial](#exercise-recursive-factorial)
-    - [Exercise: Maximum Hourglass Sum Calculator](#exercise-maximum-hourglass-sum-calculator)
-    - [Exercise: Maximum Consecutive Ones](#exercise-maximum-consecutive-ones)
-    - [Exercise: Sum of Two Integers Calculator](#exercise-sum-of-two-integers-calculator)
-    - [Python Program: Book Inheritance](#python-program-book-inheritance) <!-- Added Python Program Entry -->
-    - [Exercise: Maximum Difference](#exercise-maximum-difference) <!-- Added Maximum Difference Exercise Entry -->
+    - [Voting Eligibility Checker](#example-voting-eligibility-checker)
+    - [Conditional Statements](#exercise-conditional-statements)
+    - [Age Classifier](#exercise-age-classifier)
+    - [Multiples Printer](#exercise-multiples-printer)
+    - [Reverse an Array](#exercise-reverse-an-array)
+    - [Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker)
+    - [Recursive Factorial](#exercise-recursive-factorial)
+    - [Maximum Hourglass Sum Calculator](#exercise-maximum-hourglass-sum-calculator)
+    - [Maximum Consecutive Ones](#exercise-maximum-consecutive-ones)
+    - [Sum of Two Integers Calculator](#exercise-sum-of-two-integers-calculator)
+    - [Book Inheritance (Python Program)](#python-program-book-inheritance) <!-- Added Python Program Entry -->
+    - [Maximum Difference](#exercise-maximum-difference) <!-- Added Maximum Difference Exercise Entry -->
+    - [Parse String to Integer (Python Script)](#python-script-parse-string-to-integer)
+    - [Parse String to Integer - Variant 1 (Python Script)](#python-script-variant-1)
+    - [Parse String to Integer - Variant 2 (Python Script)](#python-script-variant-2)
+    - [Parse String to Integer - Variant 3 (Python Script)](#python-script-variant-3)
   - [Additional Exercises](#additional-exercises)
 - [Hourglass Sum Calculator](#hourglass-sum-calculator)
   - [Usage](#usage)
@@ -32,7 +36,6 @@ Welcome to the Python Exercises repository! This repository contains a collectio
   - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones)
 - [Contributing](#contributing)
 - [License](#license)
-
 
 
 ## The Power of Python
@@ -794,6 +797,23 @@ You can assume that the input array contains at least two elements.
 ```python
 def minimum_difference(arr):
     # Your code here
+```
+***Parse String to Integer - Variant 1 (Python Script)***
+
+This is a variant of the Parse String to Integer script using str.isdigit() for validation.
+Usage
+
+***Usage instructions are the same as for the original script. Follow the steps mentioned in the "Parse String to Integer (Python Script)" section.
+Example***
+
+$ ```python parse_string_variant1.py
+Enter a string: 123
+123
+```
+
+$ ```python parse_string_variant1.py
+Enter a string: abc
+Bad String
 ```
 
 **Contributing**
