@@ -2,10 +2,6 @@
 
 Welcome to the Python Exercises repository! This repository contains a collection of Python exercises and solutions to help you improve your Python programming skills. Whether you're a beginner or an experienced developer, you can use these exercises to enhance your Python knowledge.
 
-# Python Exercises Repository
-
-Welcome to the Python Exercises repository! This repository contains a collection of Python exercises and solutions to help you improve your Python programming skills. Whether you're a beginner or an experienced developer, you can use these exercises to enhance your Python knowledge.
-
 # Table of Contents
 
 - [Getting Started](#getting-started)
@@ -29,11 +25,14 @@ Welcome to the Python Exercises repository! This repository contains a collectio
     - [Parse String to Integer - Variant 2 (Python Script)](#python-script-variant-2)
     - [Parse String to Integer - Variant 3 (Python Script)](#python-script-variant-3)
   - [Additional Exercises](#additional-exercises)
+  - [Minimum Difference](#minimum-difference) <!-- Added Minimum Difference Exercise Entry -->
 - [Hourglass Sum Calculator](#hourglass-sum-calculator)
   - [Usage](#usage)
   - [Algorithm](#algorithm)
 - [Solutions](#solutions)
   - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones)
+  - [Solution: Maximum Difference](#solution-maximum-difference) <!-- Added Maximum Difference Solution Entry -->
+  - [Solution: Minimum Difference](#solution-minimum-difference) <!-- Added Minimum Difference Solution Entry -->
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -166,689 +165,399 @@ In this exercise, you'll practice using conditional statements by writing a Pyth
 
    - Takes an integer input from the user.
 
-   - Determines whether the input is "Weird" or "Not Weird" following the conditions mentioned earlier.
+   - Determines whether the input is "Weird" or "Not Weird" based on the following conditions:
 
-   - Prints the result.
+     - If the input is odd, print "Weird."
+     - If the input is even and in the inclusive range of 2 to 5, print "Not Weird."
+     - If the input is even and in the inclusive range of 6 to 20, print "Weird."
+     - If the input is even and greater than 20, print "Not Weird."
 
-3. Test your program with different inputs to ensure it behaves correctly.
+   - Ensure your program handles both positive and negative integers.
+
+3. Test your program with various input values to verify its correctness.
+
+#### Exercise: Age Classifier
+
+In this exercise, you'll write a Python program that classifies a person's age into different categories: infant, child, teenager, adult, or senior.
+
+**Script Name:** `age_classifier.py`
+
+**Instructions**
+
+1. Create a new Python file named `age_classifier.py`.
+
+2. Write a function `classify_age(age)` that takes an integer `age` as input and returns a string indicating the age category. Use the following criteria:
+
+   - If the age is 0 or negative, return "Invalid Age."
+   - If the age is less than 1, return "Infant."
+   - If the age is between 1 and 12 (inclusive), return "Child."
+   - If the age is between 13 and 19 (inclusive), return "Teenager."
+   - If the age is between 20 and 64 (inclusive), return "Adult."
+   - If the age is 65 or older, return "Senior."
+
+3. In your `age_classifier.py` script, take user input for their age and call the `classify_age` function to determine and print their age category.
+
+4. Test your program with different age values to verify its correctness.
+
+#### Exercise: Multiples Printer
+
+In this exercise, you'll write a Python program that prints the multiples of a given number within a specified range.
+
+**Script Name:** `multiples_printer.py`
+
+**Instructions**
+
+1. Create a new Python file named `multiples_printer.py`.
+
+2. Write a function `print_multiples(n, start, end)` that takes three integers as input: `n`, `start`, and `end`. The function should print all multiples of `n` within the range from `start` to `end` (inclusive).
+
+3. In your `multiples_printer.py` script, take user input for `n`, `start`, and `end`, and call the `print_multiples` function to print the multiples.
+
+4. Test your program with different inputs to verify its correctness.
 
 #### Exercise: Reverse an Array
 
-**Problem Statement**
+In this exercise, you'll write a Python program to reverse an array of integers.
 
-You are given an array of integers. Your task is to write a Python script that prints the elements of the array in reverse order as a single line of space-separated numbers.
+**Script Name:** `reverse_array.py`
 
-**Implement this in a Python script**, where you read the size of the array and the array elements, reverse the array, and print it in reverse order.
+**Instructions**
 
-**Example**
+1. Create a new Python file named `reverse_array.py`.
 
-If the input is:
+2. Write a function `reverse_list(arr)` that takes a list of integers `arr` as input and returns a new list with the elements reversed. Do not use built-in functions like `reverse()`.
 
+3. In your `reverse_array.py` script, take user input for a list of integers, call the `reverse_list` function to reverse the list, and print the reversed list.
 
+4. Test your program with different lists of integers to verify its correctness.
 
-4
-1 4 3 2
+#### Exercise: Factorial and Even/Odd Checker
 
+In this exercise, you'll write a Python program that calculates the factorial of a given number and checks whether it's even or odd.
 
-The output should be:
+**Script Name:** `factorial_even_odd.py`
 
-2 3 4 1
+**Instructions**
 
+1. Create a new Python file named `factorial_even_odd.py`.
 
-### Explanation
+2. Write a function `calculate_factorial(n)` that takes an integer `n` as input and returns its factorial. Use a while loop for the calculation.
 
-- The script reads the size of the array (4) and the array elements (1, 4, 3, 2).
-- It reverses the array to obtain [2, 3, 4, 1].
-- Finally, it prints the reversed array as a single line of space-separated numbers.
+3. Write a function `is_even(num)` that takes an integer `num` as input and returns `True` if it's even and `False` if it's odd.
 
-### Starter Code
+4. In your `factorial_even_odd.py` script, take user input for a positive integer `n`.
 
-```python
-#!/bin/python3
+5. Call the `calculate_factorial` function to calculate the factorial of `n`.
 
-import math
-import os
-import random
-import re
-import sys
+6. Call the `is_even` function to check if the factorial is even or odd.
 
-if __name__ == '__main__':
-    n = int(input().strip())
+7. Print the factorial and whether it's even or odd.
 
-    arr = list(map(int, input().rstrip().split()))
+8. Test your program with different values of `n` to verify its correctness.
 
-    # Reverse the array and print it
-    reversed_arr = arr[::-1]
-    print(" ".join(map(str, reversed_arr)))
-```
-Constraints
+#### Exercise: Recursive Factorial
 
-    The array size (n) will be between 1 and 1000.
-    The array elements will be integers between -1000 and 1000.
+In this exercise, you'll write a Python program to calculate the factorial of a given number using recursion.
 
-This exercise provides practice in reading and manipulating arrays in Python.
+**Script Name:** `recursive_factorial.py`
 
+**Instructions**
 
-## Exercise: Age Classifier
+1. Create a new Python file named `recursive_factorial.py`.
 
-In this exercise, you will write a Python script named "age_classifier.py" to classify a person's age into different categories based on specific conditions. The script will take an integer representing a person's age as input and determine whether the person is young, a teenager, or old. Follow these steps to complete the exercise.
+2. Write a function `calculate_factorial_recursive(n)` that takes an integer `n` as input and returns its factorial using recursion.
 
-Script Name: age_classifier.py
-Instructions
+3. In your `recursive_factorial.py` script, take user input for a positive integer `n`.
 
-    Create a new Python file named "age_classifier.py" in your repository.
-    Inside "age_classifier.py," define a Person class with the following methods:
+4. Call the `calculate_factorial_recursive` function to calculate the factorial of `n`.
 
-        __init__(self, initialAge): A constructor that takes an integer initialAge as a parameter. It should check if initialAge is negative. If initialAge is negative, set the age to 0 and print "Age is not valid, setting age to 0." Otherwise, set the age to initialAge.
+5. Print the factorial.
 
-        amIOld(self): A method that performs age-related checks and prints one of the following messages based on the age:
-            If the age is less than 13, print "You are young."
-            If the age is between 13 and 17 (inclusive), print "You are a teenager."
-            If the age is 18 or older, print "You are old."
+6. Test your program with different values of `n` to verify its correctness.
 
-        yearPasses(self): A method that increments the age of the person by 1.
+#### Exercise: Maximum Hourglass Sum Calculator
 
-    After defining the Person class and its methods, implement the following logic in your script:
+In this exercise, you'll write a Python program to find the maximum hourglass sum in a 2D array.
 
-        Read the number of test cases, t, from the user.
+**Script Name:** `hourglass_sum.py`
 
-        For each test case, read an integer representing a person's age from the user.
+**Instructions**
 
-        Create a Person object with the given age and use the amIOld method to print the appropriate message based on the age.
+1. Create a new Python file named `hourglass_sum.py`.
 
-        Call the yearPasses method three times to simulate three years passing and then call the amIOld method again to print the updated age category.
+2. Write a function `find_max_hourglass_sum(arr)` that takes a 2D list `arr` as input and returns the maximum hourglass sum. An hourglass in the 2D array is defined as a subset of values with the following shape:
 
-    Test your "age_classifier.py" script with different inputs to ensure it behaves correctly.
 
-    Share your code and the results of your tests in this repository.
+For example, in the 2D array:
 
-## Exercise: Multiples Printer
 
-### Problem Statement
+The maximum hourglass sum is `19`, which corresponds to the hourglass:
 
-You are given an integer `n`. Your task is to write a Python script that prints the first 10 multiples of `n` in the following format:
 
-n x 1 = result
-n x 2 = result
-n x 3 = result
-...
-n x 10 = result
+3. In your `hourglass_sum.py` script, create a 2D list to represent the array and populate it with values.
 
+4. Call the `find_max_hourglass_sum` function to calculate and print the maximum hourglass sum.
 
-Implement this in a Python script and make sure to use a loop to generate the multiples.
+5. Test your program with different 2D arrays to verify its correctness.
 
-### Example
+#### Exercise: Maximum Consecutive Ones
 
-If the input is `3`, the output should be:
+In this exercise, you'll write a Python program to find the maximum number of consecutive ones in a binary sequence.
 
-3 x 1 = 3
-3 x 2 = 6
-3 x 3 = 9
-3 x 4 = 12
-3 x 5 = 15
-3 x 6 = 18
-3 x 7 = 21
-3 x 8 = 24
-3 x 9 = 27
-3 x 10 = 30
+**Script Name:** `max_consecutive_ones.py`
 
+**Instructions**
 
-### Explanation
+1. Create a new Python file named `max_consecutive_ones.py`.
 
-- You need to read an integer `n` as input.
-- Then, use a loop to calculate and print the first 10 multiples of `n` in the specified format.
+2. Write a function `find_max_consecutive_ones(nums)` that takes a list of integers `nums`, where each integer is either `0` or `1`, as input. The function should return the maximum number of consecutive ones in the list.
 
-### Starter Code
+3. In your `max_consecutive_ones.py` script, take user input for a list of integers, ensuring that the input only contains `0` and `1` values.
 
-```python
-#!/bin/python3
+4. Call the `find_max_consecutive_ones` function to calculate and print the maximum number of consecutive ones.
 
-import math
-import os
-import random
-import re
-import sys
+5. Test your program with different input lists to verify its correctness.
 
-if __name__ == '__main__':
-    n = int(input().strip())
+#### Exercise: Sum of Two Integers Calculator
 
-    # Your code goes here
-```
+In this exercise, you'll write a Python program that calculates the sum of two integers without using the `+` or `-` operators.
 
-Constraints
+**Script Name:** `sum_of_integers.py`
 
-    The input integer n will be a positive integer.
+**Instructions**
 
-Feel free to try solving this exercise on your own. Once you have a solution, you can compare it to the provided starter code and explanation. Good luck!
+1. Create a new Python file named `sum_of_integers.py`.
 
-## Exercise: Phone Book
+2. Write a function `calculate_sum(a, b)` that takes two integers `a` and `b` as input and returns their sum without using the `+` or `-` operators.
 
-### Problem Statement
+3. In your `sum_of_integers.py` script, take user input for two integers and call the `calculate_sum` function to calculate and print the sum.
 
-You are given a list of names and phone numbers, and your task is to create a phone book (dictionary) mapping names to their respective phone numbers. You will also handle queries to look up phone numbers by name. If a name is found in the phone book, print the associated phone number; otherwise, print "Not found."
+4. Test your program with different integer inputs to verify its correctness.
 
-Implement this in a Python script that reads the number of entries, stores the phone book entries, and processes queries until there is no more input.
+#### Exercise: Book Inheritance (Python Program)
 
-### Input Format
+In this exercise, you'll create a Python program to model inheritance among different types of books.
 
-The first line contains an integer, `n`, denoting the number of entries in the phone book.
-Each of the subsequent `n` lines describes an entry in the form of space-separated values. The first value is a friend's name, and the second value is a 10-digit phone number.
-After the `n` lines of phone book entries, there are an unknown number of lines of queries. Each line (query) contains a name to look up.
+**Script Name:** `book_inheritance.py`
 
-### Output Format
+**Instructions**
 
-For each query, print "Not found" if the name has no corresponding entry in the phone book; otherwise, print the full name and phone number in the format `name=phoneNumber`.
+1. Create a new Python file named `book_inheritance.py`.
 
-### Example
+2. Define a class `Book` with the following attributes and methods:
 
-**Sample Input**
+- Attributes:
+  - `title` (string): The title of the book.
+  - `author` (string): The author of the book.
+- Methods:
+  - `__init__(self, title, author)`: Initializes a new `Book` instance with the given `title` and `author`.
+  - `display(self)`: Prints the title and author of the book in the following format: `"Title: {title}, Author: {author}"`.
 
-3
-sam 99912222
-tom 11122222
-harry 12299933
-sam
-edward
-harry
+3. Define a class `eBook` that inherits from the `Book` class with the following additional attributes and methods:
 
+- Attributes:
+  - `file_size` (string): The file size of the eBook.
+- Methods:
+  - `__init__(self, title, author, file_size)`: Initializes a new `eBook` instance with the given `title`, `author`, and `file_size`.
+  - `display(self)`: Overrides the `display` method of the parent class to also print the file size in the following format: `"Title: {title}, Author: {author}, File Size: {file_size}"`.
 
-**Sample Output**
+4. In your `book_inheritance.py` script, create instances of both the `Book` and `eBook` classes and demonstrate the use of the `display` method for both.
 
-sam=99912222
-Not found
-harry=12299933
+5. Test your program to verify its correctness.
 
+#### Exercise: Maximum Difference
 
-### Explanation
+In this exercise, you'll write a Python function to find the maximum difference between any two elements in an integer list.
 
-We add the following (Name, Phone Number) pairs to our map so it looks like this:
+**Script Name:** `max_difference.py`
 
-- `sam` -> `99912222`
-- `tom` -> `11122222`
-- `harry` -> `12299933`
+**Instructions**
 
-We then process each query and print `name=phoneNumber` if the queried name is found in the phone book; otherwise, we print "Not found."
+1. Create a new Python file named `max_difference.py`.
 
-**Query 1:** `sam` - Sam is one of the keys in our dictionary, so we print `sam=99912222`.
-**Query 2:** `edward` - Edward is not one of the keys in our dictionary, so we print "Not found."
-**Query 3:** `harry` - Harry is one of the keys in our dictionary, so we print `harry=12299933`.
+2. Write a function `find_max_difference(nums)` that takes a list of integers `nums` as input and returns the maximum difference between any two elements in the list.
 
-### Starter Code
+3. In your `max_difference.py` script, take user input for a list of integers.
 
-```python
-# Read the number of entries in the phone book
-n = int(input())
+4. Call the `find_max_difference` function to calculate and print the maximum difference.
 
-# Initialize an empty phone book (dictionary)
-phone_book = {}
+5. Test your program with different input lists to verify its correctness.
 
-# Read and store the phone book entries
-for _ in range(n):
-    entry = input().split()
-    name, phone_number = entry[0], entry[1]
-    phone_book[name] = phone_number
+#### Exercise: Parse String to Integer (Python Script)
 
-# Read and process the queries
-while True:
-    try:
-        query = input()
-        if query in phone_book:
-            print(f"{query}={phone_book[query]}")
-        else:
-            print("Not found")
-    except EOFError:
-        break
-```
+In this exercise, you'll write a Python script to parse a string containing an integer and convert it to an integer data type.
 
-***Constraints***
+**Script Name:** `parse_string_to_integer.py`
 
-    The array size n will be between 1 and 1000.
-    Names consist of lowercase English alphabetic letters and are first names only.
-    Phone numbers are 10-digit integers.
+**Instructions**
 
-    
-This exercise provides practice in creating a phone book, storing entries in a dictionary, and looking up names and phone numbers.
+1. Create a new Python file named `parse_string_to_integer.py`.
+
+2. Write a script that does the following:
+
+- Takes user input for a string containing an integer value (e.g., `"123"`).
+
+- Parses the input string and converts it to an integer data type.
+
+- Prints the integer value.
+
+3. Test your script with different input strings to verify its correctness.
+
+#### Exercise: Parse String to Integer - Variant 1 (Python Script)
+
+In this exercise, you'll write a Python script to parse a string containing an integer and convert it to an integer data type. However, this time, you'll handle cases where the string may contain leading or trailing whitespace characters.
+
+**Script Name:** `parse_string_to_integer_variant1.py`
+
+**Instructions**
+
+1. Create a new Python file named `parse_string_to_integer_variant1.py`.
+
+2. Write a script that does the following:
+
+- Takes user input for a string that may contain an integer value with optional leading or trailing whitespace characters (e.g., `"  123  "`).
+
+- Parses the input string, removing any leading or trailing whitespace characters, and converts it to an integer data type.
+
+- Prints the integer value.
+
+3. Test your script with different input strings, including those with leading or trailing whitespace, to verify its correctness.
+
+#### Exercise: Parse String to Integer - Variant 2 (Python Script)
+
+In this exercise, you'll write a Python script to parse a string containing an integer and convert it to an integer data type. This time, you'll handle cases where the string may contain non-numeric characters.
+
+**Script Name:** `parse_string_to_integer_variant2.py`
+
+**Instructions**
+
+1. Create a new Python file named `parse_string_to_integer_variant2.py`.
+
+2. Write a script that does the following:
+
+- Takes user input for a string that may contain an integer value with optional non-numeric characters (e.g., `"12abc34"`).
+
+- Parses the input string, extracting the first contiguous sequence of numeric characters, and converts it to an integer data type.
+
+- Prints the integer value.
+
+3. Test your script with different input strings, including those with non-numeric characters, to verify its correctness.
+
+#### Exercise: Parse String to Integer - Variant 3 (Python Script)
+
+In this exercise, you'll write a Python script to parse a string containing an integer and convert it to an integer data type. This time, you'll handle cases where the string may contain leading plus or minus signs.
+
+**Script Name:** `parse_string_to_integer_variant3.py`
+
+**Instructions**
+
+1. Create a new Python file named `parse_string_to_integer_variant3.py`.
+
+2. Write a script that does the following:
+
+- Takes user input for a string that may contain an integer value with an optional leading plus (`+`) or minus (`-`) sign (e.g., `"-123"` or `"+456"`).
+
+- Parses the input string, considering the leading sign (if present), and converts it to an integer data type.
+
+- Prints the integer value.
+
+3. Test your script with different input strings, including those with leading plus or minus signs, to verify its correctness.
 
 ---
 
-## Exercise: Recursive Factorial
+## Hourglass Sum Calculator
 
-### Problem Statement
+The `hourglass_sum.py` script calculates the maximum hourglass sum in a 2D array. It defines a function `find_max_hourglass_sum(arr)` that takes a 2D list `arr` as input and returns the maximum hourglass sum.
 
-You are tasked with implementing a Python function to calculate the factorial of a given integer `n` using recursion.
+### Usage
 
-Implement the `factorial` function, which takes an integer `n` as a parameter and returns the factorial of `n`.
+To use the `hourglass_sum.py` script:
 
-### Example
+1. Ensure you have Python installed on your system.
 
-**Sample Input**
+2. Create a 2D list representing the array you want to analyze. The list should contain integer values.
 
-3
+3. Call the `find_max_hourglass_sum(arr)` function, passing your 2D list as an argument.
 
+4. The function will return the maximum hourglass sum, which you can print or use as needed.
 
-**Sample Output**
+### Algorithm
 
-6
+The `find_max_hourglass_sum` function iterates through the 2D array, focusing on each possible hourglass shape within the array. For each hourglass, it calculates the sum of its values and keeps track of the maximum sum found so far. The function uses nested loops to visit each cell in the array, ensuring that it considers all possible hourglasses.
 
-
-### Explanation
-
-The factorial of 3 is calculated as 3 x 2 x 1 = 6.
-
-### Starter Code
-
-```python
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-def factorial(n):
-    # Base case: If n is 0 or 1, the factorial is 1.
-    if n <= 1:
-        return 1
-    # Recursive case: Multiply n by the factorial of (n-1).
-    else:
-        return n * factorial(n - 1)
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    n = int(input().strip())
-
-    result = factorial(n)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
-```
-
-**Constraints**
-
-    n is a non-negative integer.
-
-This exercise provides practice in implementing a recursive function to calculate factorials in Python.
+This algorithm allows the script to efficiently find the maximum hourglass sum within the given 2D array.
 
 ---
 
-## Exercise: Maximum Consecutive Ones
+## Solutions
 
-### Problem Statement
+In this section, you'll find solutions to some of the exercises presented earlier. These solutions are provided to help you understand how to approach and solve the exercises.
 
-You are given a base-10 integer, and your task is to convert it to binary and find the maximum number of consecutive '1's in its binary representation.
-
-Implement the `max_consecutive_ones` function, which takes an integer `n` as a parameter and returns the maximum number of consecutive '1's in the binary representation of `n`.
-
-### Example
-
-
-### Starter Code
-
-```python
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-def max_consecutive_ones(n):
-    # Write your code here
-
-if __name__ == '__main__':
-    n = int(input().strip())
-    result = max_consecutive_ones(n)
-    print(result)
-```
-Constraints
-
-    n is a non-negative integer.
-
-This exercise provides practice in converting numbers to binary and finding the maximum consecutive ones in their binary representation.
-**Exercise: Maximum Difference**
-
-**Objective:**
-
-In this exercise, you will practice working with classes and linked lists. Your goal is to create a Python program that defines a Node class and a Solution class. The Solution class should implement an insert method that adds nodes to the end of a linked list and a display method to print the linked list.
-
-**Instructions:**
-
-1. Start by defining a Node class with the following attributes:
-   - An integer data field, `data`.
-   - A reference to the next node, `next`, which is initialized to `None` in the constructor.
-
-2. Create a Solution class with the following methods:
-   - `insert(self, head, data)`: This method should insert a new node with the given data at the end of the linked list. If the linked list is empty, the new node should become the head of the list. Return the head of the updated linked list.
-   - `display(self, head)`: This method should print the elements of the linked list separated by spaces.
-
-3. In the main function:
-   - Create a variable `head` and initialize it to `None`.
-   - Read an integer `T` from the user, which represents the number of elements to insert.
-   - Loop `T` times and for each iteration, read an integer `data` from the user and insert it into the linked list using the `insert` method.
-   - Finally, call the `display` method to print the elements of the linked list.
-
-
-**Solution Section for `help.md`:**
-
-```markdown
 ### Solution: Maximum Consecutive Ones
 
-Here's a Python solution for finding the maximum consecutive ones in the binary representation of a given integer:
+Here's a solution for the "Maximum Consecutive Ones" exercise:
 
 ```python
-#!/bin/python3
+def find_max_consecutive_ones(nums):
+ max_count = 0
+ current_count = 0
 
-import math
-import os
-import random
-import re
-import sys
+ for num in nums:
+     if num == 1:
+         current_count += 1
+     else:
+         # Update the maximum count if the current count is greater
+         max_count = max(max_count, current_count)
+         current_count = 0
 
-def max_consecutive_ones(n):
-    binary_str = bin(n)[2:]  # Convert to binary and remove the '0b' prefix
-    max_consecutive = 0
-    current_consecutive = 0
+ # Update the maximum count one more time in case the sequence ends with 1s
+ max_count = max(max_count, current_count)
 
-    for char in binary_str:
-        if char == '1':
-            current_consecutive += 1
-            max_consecutive = max(max_consecutive, current_consecutive)
-        else:
-            current_consecutive = 0
-
-    return max_consecutive
-
-if __name__ == '__main__':
-    n = int(input().strip())
-    result = max_consecutive_ones(n)
-    print(result)
+ return max_count
 ```
-***You can use this code to find the maximum consecutive ones in the binary representation of an integer.***
+# Example usage:
+nums = [1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1]
+max_ones = find_max_consecutive_ones(nums)
+print("Maximum Consecutive Ones:", max_ones)
 
+def find_max_difference(nums):
+    if not nums or len(nums) < 2:
+        return None
 
-# Exercise: Calculate Maximum Hourglass Sum
+    min_num = nums[0]
+    max_diff = nums[1] - nums[0]
 
-In this exercise, you are tasked with writing Python code to calculate the maximum hourglass sum in a given 6x6 2D array. An hourglass is a subset of values with indices falling in a specific pattern within the array. Your goal is to find the hourglass with the highest sum.
+    for num in nums[1:]:
+        if num - min_num > max_diff:
+            max_diff = num - min_num
+        if num < min_num:
+            min_num = num
 
-## Code Explanation
+    return max_diff
 
-```python
-#!/bin/python3
+# Example usage:
+nums = [2, 3, 10, 6, 4, 8, 1]
+max_diff = find_max_difference(nums)
+print("Maximum Difference:", max_diff)
 
-import math
-import os
-import random
-import re
-import sys
+# This function iterates through the input list and keeps track of the minimum value encountered so far (min_num) and the maximum difference encountered so far (max_diff). It updates max_diff whenever a larger difference is found. The final max_diff represents the maximum difference between any two elements in the list.
 
-if __name__ == '__main__':
-    arr = []
+# Feel free to use these solutions as references when solving the exercises on your own. Additionally, you can explore and experiment with the provided exercises to further enhance your Python programming skills.
 
-    for _ in range(6):
-        arr.append(list(map(int, input().rstrip().split())))
+# Contributing
+# Contributions to this Python Exercises repository are welcome! If you'd like to add more exercises, improve existing ones, or suggest new features or improvements, please follow these guidelines:
 
-    # Initialize a variable to store the maximum hourglass sum.
-    max_hourglass_sum = -63  # Minimum possible value for a single cell (-9 to 9 for each cell).
+# 1. Fork this repository.
+# 2. Create a new branch for your contributions.
+# 3. Make your changes, add new exercises, or make improvements to existing ones.
+# 4. Test your changes to ensure they work as expected.
+# 5. Commit your changes and create a descriptive commit message.
+# 6. Push your changes to your forked repository.
+# 7. Create a pull request to merge your changes into this repository.
 
-    # Iterate through the 2D array to calculate hourglass sums.
-    for i in range(4):
-        for j in range(4):
-            # Calculate the sum of the current hourglass.
-            hourglass_sum = (
-                arr[i][j] + arr[i][j + 1] + arr[i][j + 2] +
-                arr[i + 1][j + 1] +
-                arr[i + 2][j] + arr[i + 2][j + 1] + arr[i + 2][j + 2]
-            )
-            # Update the maximum hourglass sum if necessary.
-            max_hourglass_sum = max(max_hourglass_sum, hourglass_sum)
+# Please ensure that your contributions align with the style and structure of the existing content.
 
-    # Print the maximum hourglass sum.
-    print(max_hourglass_sum)
-```
-To solve the exercise, you can use the provided Python code. It reads a 6x6 2D array from the user, calculates the maximum hourglass sum, and prints the result.
+# License
+# This Python Exercises repository is licensed under the MIT License. Feel free to use, modify, and distribute the content for personal or educational purposes.
 
-Make sure to test the code with different arrays to verify its correctness and understand how it works
-
-# Exercise: Sum of Two Integers Calculator
-
-In this exercise, you'll create a Python program that calculates the sum of two integers entered by the user. You will also turn this program into an exercise to practice your programming skills.
-
-## Code Explanation
-
-```python
-# Sum of Two Integers Calculator
-
-def solveMeFirst(a, b):
-    # Calculate the sum of a and b
-    return a + b
-
-# Read the input values
-num1 = int(input("Enter the first integer: "))
-num2 = int(input("Enter the second integer: "))
-
-# Calculate the sum using the solveMeFirst function
-result = solveMeFirst(num1, num2)
-
-# Print the result
-print("The sum of {} and {} is: {}".format(num1, num2, result))
-```
-***Your Task***
-
-    Copy the code provided above into a Python script.
-    Run the script and test it by entering different pairs of integers.
-    Observe how the program calculates and displays the sum of the two integers.
-
-***Exercise Questions***
-
-    What is the purpose of the solveMeFirst function in the code?
-    How does the program handle user input and display the result?
-    Can you modify the program to handle decimal numbers instead of integers?
-
-Feel free to experiment with the code and explore ways to improve or extend its functionality.
-
-**Task: Implementing a Book Class with Inheritance**
-
-**Objective:**
-
-In this task, you will practice working with inheritance and abstract classes in Python. Your goal is to create a class called MyBook that inherits from an abstract base class Book. You will implement the display method to display information about a book.
-
-**Instructions:**
-
-Start with the provided abstract base class Book, which has an abstract method display.
-
-```
-from abc import ABCMeta, abstractmethod
-
-class Book(object, metaclass=ABCMeta):
-    def __init__(self, title, author):
-        self.title = title
-        self.author = author
-
-    @abstractmethod
-    def display(self):
-        pass
-```
-Replace [title], [author], and [price] with the actual values of the book.
-
-**Exercise: Creating an Instance of MyBook**
-
-**Objective:**
-
-In this exercise, you will practice creating an instance of the MyBook class and calling its display method to print the book's information.
-
-**Instructions:**
-
-- Create a Python script or use an interactive environment to write and test the code for the MyBook class.
-- Input values for a book's title, author, and price.
-- Create an instance of the MyBook class using the provided input values.
-- Call the display method on the MyBook instance to print the book's information.
-- Verify that the information displayed matches the input values.
-
-**Section: Inheritance and Abstract Classes**
-
-**Introduction:**
-
-Inheritance is a fundamental concept in object-oriented programming (OOP) that allows you to create a new class (derived or subclass) based on an existing class (base or superclass). In Python, you can implement inheritance to reuse the properties and methods of a base class in a derived class.
-
-Abstract classes are classes that cannot be instantiated on their own and are often used as base classes. They can contain abstract methods, which are methods without a defined implementation. Subclasses inheriting from abstract classes must provide concrete implementations for these abstract methods.
-
-**Key Concepts:**
-
-- Base Class (Superclass): The class from which another class (derived class) inherits properties and methods.
-- Derived Class (Subclass): The class that inherits properties and methods from a base class.
-- Abstract Class: A class that cannot be instantiated and may contain abstract methods.
-- Abstract Method: A method declared in an abstract class without implementation, to be defined by subclasses.
-
-**Examples:**
-
-In this section, we explored the implementation of inheritance and abstract classes through the Book and MyBook classes. The Book class serves as an abstract base class with an abstract display method. The MyBook class inherits from Book and provides a concrete implementation of the display method to display book information.
-
-**Summary:**
-
-Inheritance and abstract classes are powerful features in Python that allow you to create hierarchical class structures and enforce method implementations in derived classes. Understanding these concepts is essential for building reusable and structured code in object-oriented programming.
-
-## Exercise: Maximum Difference
-
-**Objective:**
-
-In this exercise, you will work with a Python class to find the maximum absolute difference between two integers in a set of positive integers. You will complete the `Difference` class by implementing a constructor and a `computeDifference` method.
-
-**Instructions:**
-
-1. Open the provided Python script, `maximum_difference.py`.
-
-2. Inside the `Difference` class:
-   - Implement the constructor `__init__` to initialize the private instance variable `__elements` with the given array of integers.
-
-   - Implement the `computeDifference` method to find the maximum absolute difference between any two numbers in the `__elements` array and store it in the `maximumDifference` instance variable.
-
-3. The script reads the input, creates an instance of the `Difference` class, calls the `computeDifference` method, and prints the `maximumDifference`.
-
-4. Run the script and verify that it correctly calculates and displays the maximum absolute difference.
-
-5. Record your code and the results in this section.
-
-**Sample Input:**
-5
-1 7 12 9 5
-
-**Sample Output:**
-
-11
-
-
-In this example, the maximum absolute difference is 11, which is the difference between 12 and 1.
-
-Remember to explore the code, understand how the class works, and ensure your implementation finds the maximum difference correctly.
-
-# Create the Difference class
-class Difference:
-    def __init__(self, a):
-        self.__elements = a
-        self.maximumDifference = None
-
-    def computeDifference(self):
-        # Find the maximum and minimum elements in the array
-        max_element = max(self.__elements)
-        min_element = min(self.__elements)
-        
-        # Calculate the maximum absolute difference
-        self.maximumDifference = abs(max_element - min_element)
-
-# Input values for the array of integers
-n = int(input("Enter the number of elements: "))
-elements = list(map(int, input("Enter space-separated integers: ").split()))
-
-# Create an instance of the Difference class
-d = Difference(elements)
-
-# Compute the maximum difference
-d.computeDifference()
-
-# Print the maximum difference
-print("Maximum Difference:", d.maximumDifference)
-## Exercise: Minimum Difference
-
-**Objective:**
-
-In this exercise, you will work with arrays in Python. Your goal is to find the minimum difference between any two elements in a given array.
-
-**Instructions:**
-
-You are given an array of integers. Write a function `minimum_difference(arr)` that takes the array as input and returns the minimum difference between any two elements in the array.
-
-**Example:**
-
-Input: [3, 8, 10, 23, 5]
-Output: 2 (The minimum difference is between 3 and 5)
-
-Input: [1, 5, 7, 9, 12]
-Output: 2 (The minimum difference is between 5 and 7)
-
-Input: [7, 21, 33, 44, 6]
-Output: 1 (The minimum difference is between 33 and 44)
-
-You can assume that the input array contains at least two elements.
-
-```python
-def minimum_difference(arr):
-    # Your code here
-```
-***Parse String to Integer - Variant 1 (Python Script)***
-
-This is a variant of the Parse String to Integer script using str.isdigit() for validation.
-Usage
-
-***Usage instructions are the same as for the original script. Follow the steps mentioned in the "Parse String to Integer (Python Script)" section.
-Example***
-
-$ ```python parse_string_variant1.py
-Enter a string: 123
-123
-```
-
-$ ```python parse_string_variant1.py
-Enter a string: abc
-Bad String
-```
-
-**Contributing**
-
-If you'd like to contribute to this Python Exercises repository, please follow these guidelines:
-
-1. Fork this repository to your GitHub account.
-2. Clone your forked repository to your local machine:
-    
-  ```
-  git clone https://github.com/your-username/python-exercises.git
-```
-
-
-  Create a new branch for your contributions:
-  
-```
-git checkout -b feature/add-exercise
-```
-
-Add your new exercises or solutions to the appropriate directories.
-
-Commit your changes and push them to your GitHub repository:
-
-```
-git add .
-```
-```
-git commit -m "Add new exercises"
-```
-```
-git push origin feature/add-exercise
-```
-    Create a pull request from your forked repository to the main repository.
-
-**License**
-
-This repository and its contents are open-source and available under the MIT License. You can find the full license details in the LICENSE file.
+# Happy coding, and enjoy improving your Python skills!
