@@ -549,6 +549,13 @@ Contributions to this Python Exercises repository are welcome! If you'd like to 
 2. Create a new branch for your contributions.
 3. Make your changes, add new exercises, or make improvements to existing ones.
 4. Test your changes to ensure they work as expected.
+
+# License
+
+This Python Exercises repository is licensed under the MIT License. You are free to use, modify, and distribute the content for personal or educational purposes.
+
+Happy coding, and enjoy improving your Python skills!
+
 5. Commit your changes and create a descriptive commit message.
 6. Push your changes to your forked repository.
 7. Create a pull request to merge your changes into this repository.
