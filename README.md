@@ -541,6 +541,31 @@ nums = [2, 3, 10, 6, 4, 8, 1]
 max_diff = find_max_difference(nums)
 print("Maximum Difference:", max_diff)
 
+
+## Calculator Script Exercise
+
+### Exercise Description
+
+**Objective:** In this exercise, you will create a Python script for a simple calculator. The script should define a `Calculator` class with a `power` method that calculates the power of a number. However, the method must throw an exception if either of the input numbers is negative.
+
+**Instructions:**
+
+1. Create a Python script that defines a `Calculator` class.
+
+2. Inside the `Calculator` class, define a `power` method that takes two integers `n` and `p` as parameters.
+
+3. Implement the `power` method such that it calculates and returns `n` raised to the power of `p`.
+
+4. Add error handling to the `power` method: If either `n` or `p` is negative, raise an exception with the message: "n and p should be non-negative."
+
+5. Write test cases to verify that the `power` method works as expected, both for valid inputs and when an exception is raised.
+
+### Why This Exercise?
+
+This exercise helps you practice exception handling in Python. It also reinforces your understanding of defining classes and methods, as well as writing test cases to ensure your code behaves as intended
+
+
+
 # Contributing and License
 
 ```plaintext
