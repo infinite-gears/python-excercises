@@ -18,14 +18,14 @@ Welcome to the Python Exercises repository! This repository contains a collectio
     - [Maximum Hourglass Sum Calculator](#exercise-maximum-hourglass-sum-calculator)
     - [Maximum Consecutive Ones](#exercise-maximum-consecutive-ones)
     - [Sum of Two Integers Calculator](#exercise-sum-of-two-integers-calculator)
-    - [Book Inheritance (Python Program)](#python-program-book-inheritance) <!-- Added Python Program Entry -->
     - [Maximum Difference](#exercise-maximum-difference) <!-- Added Maximum Difference Exercise Entry -->
     - [Parse String to Integer (Python Script)](#python-script-parse-string-to-integer)
     - [Parse String to Integer - Variant 1 (Python Script)](#python-script-variant-1)
     - [Parse String to Integer - Variant 2 (Python Script)](#python-script-variant-2)
     - [Parse String to Integer - Variant 3 (Python Script)](#python-script-variant-3)
+    - [Calculator Script](#calculator-script) <!-- Added Calculator Script Entry -->
   - [Additional Exercises](#additional-exercises)
-  - [Minimum Difference](#minimum-difference) <!-- Added Minimum Difference Exercise Entry -->
+    - [Minimum Difference](#minimum-difference) <!-- Added Minimum Difference Exercise Entry -->
 - [Hourglass Sum Calculator](#hourglass-sum-calculator)
   - [Usage](#usage)
   - [Algorithm](#algorithm)
@@ -35,6 +35,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
   - [Solution: Minimum Difference](#solution-minimum-difference) <!-- Added Minimum Difference Solution Entry -->
 - [Contributing](#contributing)
 - [License](#license)
+
 
 
 ## The Power of Python
