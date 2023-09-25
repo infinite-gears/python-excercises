@@ -548,6 +548,12 @@ print("Maximum Difference:", max_diff)
 
 **Objective:** In this exercise, you will create a Python script for a simple calculator. The script should define a `Calculator` class with a `power` method that calculates the power of a number. However, the method must throw an exception if either of the input numbers is negative.
 
+## Calculator Script Exercise
+
+### Exercise Description
+
+**Objective:** In this exercise, you will create a Python script for a simple calculator. The script should define a `Calculator` class with a `power` method that calculates the power of a number. However, the method must throw an exception if either of the input numbers is negative.
+
 **Instructions:**
 
 1. Create a Python script that defines a `Calculator` class.
@@ -562,7 +568,9 @@ print("Maximum Difference:", max_diff)
 
 ### Why This Exercise?
 
-This exercise helps you practice exception handling in Python. It also reinforces your understanding of defining classes and methods, as well as writing test cases to ensure your code behaves as intended
+This exercise helps you practice exception handling in Python. It also reinforces your understanding of defining classes and methods, as well as writing test cases to ensure your code behaves as intended.
+
+[Back to Table of Contents](#table-of-contents)
 
 
 
