@@ -548,7 +548,7 @@ print("Maximum Difference:", max_diff)
 
 **Objective:** In this exercise, you will create a Python script for a simple calculator. The script should define a `Calculator` class with a `power` method that calculates the power of a number. However, the method must throw an exception if either of the input numbers is negative.
 
-## Calculator Script Exercise
+## Calculator Script 
 
 ### Exercise Description
 
