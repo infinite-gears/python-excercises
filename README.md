@@ -24,6 +24,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
       - [Parse String to Integer - Variant 2 (Python Script)](#python-script-variant-2)
       - [Parse String to Integer - Variant 3 (Python Script)](#python-script-variant-3)
       - [Calculator Script](#calculator-script) <!-- Added Calculator Script Entry -->
+      - [Palindrome Checker](#palindrome-checker) <!-- Added Palindrome Checker Entry -->
     - [Additional Exercises](#additional-exercises)
       - [Minimum Difference](#minimum-difference) <!-- Added Minimum Difference Exercise Entry -->
 
@@ -36,6 +37,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
   - [Solution: Minimum Difference](#solution-minimum-difference) <!-- Added Minimum Difference Solution Entry -->
 - [Contributing](#contributing)
 - [License](#license)
+
 
 
 
