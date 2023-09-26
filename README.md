@@ -6,26 +6,27 @@ Welcome to the Python Exercises repository! This repository contains a collectio
 
 - [Getting Started](#getting-started)
 - [The Power of Python](#the-power-of-python)
-- [Exercises](#exercises)
-  - [Python Scripts and Exercises](#python-scripts-and-exercises)
-    - [Voting Eligibility Checker](#example-voting-eligibility-checker)
-    - [Conditional Statements](#exercise-conditional-statements)
-    - [Age Classifier](#exercise-age-classifier)
-    - [Multiples Printer](#exercise-multiples-printer)
-    - [Reverse an Array](#exercise-reverse-an-array)
-    - [Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker)
-    - [Recursive Factorial](#exercise-recursive-factorial)
-    - [Maximum Hourglass Sum Calculator](#exercise-maximum-hourglass-sum-calculator)
-    - [Maximum Consecutive Ones](#exercise-maximum-consecutive-ones)
-    - [Sum of Two Integers Calculator](#exercise-sum-of-two-integers-calculator)
-    - [Maximum Difference](#exercise-maximum-difference) <!-- Added Maximum Difference Exercise Entry -->
-    - [Parse String to Integer (Python Script)](#python-script-parse-string-to-integer)
-    - [Parse String to Integer - Variant 1 (Python Script)](#python-script-variant-1)
-    - [Parse String to Integer - Variant 2 (Python Script)](#python-script-variant-2)
-    - [Parse String to Integer - Variant 3 (Python Script)](#python-script-variant-3)
-    - [Calculator Script](#calculator-script) <!-- Added Calculator Script Entry -->
-  - [Additional Exercises](#additional-exercises)
-    - [Minimum Difference](#minimum-difference) <!-- Added Minimum Difference Exercise Entry -->
+  - [Exercises](#exercises)
+    - [Python Scripts and Exercises](#python-scripts-and-exercises)
+      - [Voting Eligibility Checker](#example-voting-eligibility-checker)
+      - [Conditional Statements](#exercise-conditional-statements)
+      - [Age Classifier](#exercise-age-classifier)
+      - [Multiples Printer](#exercise-multiples-printer)
+      - [Reverse an Array](#exercise-reverse-an-array)
+      - [Factorial and Even/Odd Checker](#exercise-factorial-and-even-odd-checker)
+      - [Recursive Factorial](#exercise-recursive-factorial)
+      - [Maximum Hourglass Sum Calculator](#exercise-maximum-hourglass-sum-calculator)
+      - [Maximum Consecutive Ones](#exercise-maximum-consecutive-ones)
+      - [Sum of Two Integers Calculator](#exercise-sum-of-two-integers-calculator)
+      - [Maximum Difference](#exercise-maximum-difference) <!-- Added Maximum Difference Exercise Entry -->
+      - [Parse String to Integer (Python Script)](#python-script-parse-string-to-integer)
+      - [Parse String to Integer - Variant 1 (Python Script)](#python-script-variant-1)
+      - [Parse String to Integer - Variant 2 (Python Script)](#python-script-variant-2)
+      - [Parse String to Integer - Variant 3 (Python Script)](#python-script-variant-3)
+      - [Calculator Script](#calculator-script) <!-- Added Calculator Script Entry -->
+    - [Additional Exercises](#additional-exercises)
+      - [Minimum Difference](#minimum-difference) <!-- Added Minimum Difference Exercise Entry -->
+
 - [Hourglass Sum Calculator](#hourglass-sum-calculator)
   - [Usage](#usage)
   - [Algorithm](#algorithm)
