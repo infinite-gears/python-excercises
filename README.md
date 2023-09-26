@@ -573,8 +573,44 @@ print("Maximum Difference:", max_diff)
 
 This exercise helps you practice exception handling in Python. It also reinforces your understanding of defining classes and methods, as well as writing test cases to ensure your code behaves as intended.
 
-[Back to Table of Contents](#table-of-contents)
 
+## Palindrome Checker
+
+The "Palindrome Checker" exercise is a common coding problem that demonstrates important concepts in Python, such as data structures and string manipulation. In this exercise, you'll create a Python class that checks whether a given string is a palindrome. A palindrome is a word, phrase, or sequence of characters that reads the same forwards and backward.
+
+### Exercise Overview
+
+You will implement a Python class named `PalindromeChecker` with the following methods:
+
+- `__init__(self)`: Initializes the class, creating an empty stack and an empty queue.
+- `pushCharacter(self, ch)`: Pushes a character onto the stack.
+- `enqueueCharacter(self, ch)`: Enqueues a character in the queue.
+- `popCharacter(self)`: Pops and returns the character at the top of the stack.
+- `dequeueCharacter(self)`: Dequeues and returns the first character in the queue.
+
+The main objective is to check if the input string is a palindrome by comparing characters from the front and back using both a stack and a queue. If the characters match until all characters are processed, the input string is considered a palindrome.
+
+### Importance in Python
+
+The "Palindrome Checker" exercise is important for several reasons:
+
+1. **Data Structures**: It helps you practice using data structures like stacks and queues, which are fundamental in computer science and programming.
+
+2. **String Manipulation**: You'll gain experience manipulating strings in Python, a crucial skill for various programming tasks.
+
+3. **Algorithmic Thinking**: Solving this exercise requires you to think algorithmically and develop a step-by-step process for checking palindromes.
+
+4. **Coding Best Practices**: You'll apply best practices in writing clean and organized Python code.
+
+Overall, this exercise is a valuable learning experience that reinforces key Python programming concepts and problem-solving skills.
+
+Now, you can dive into the exercise and test your Python coding abilities by implementing a palindrome checker!
+
+```python
+# Implement the PalindromeChecker class and test your palindrome checking skills here!
+class PalindromeChecker:
+    # Your code goes here...
+```
 
 
 # Contributing and License
@@ -596,3 +632,5 @@ Contributions to this Python Exercises repository are welcome! If you'd like to 
 This Python Exercises repository is licensed under the MIT License. You are free to use, modify, and distribute the content for personal or educational purposes.
 
 Happy coding, and enjoy improving your Python skills!
+
+[Back to Table of Contents](#table-of-contents)
