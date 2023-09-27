@@ -613,6 +613,34 @@ Now, you can dive into the exercise and test your Python coding abilities by imp
 class PalindromeChecker:
     # Your code goes here...
 ```
+## Calculator Task
+
+**Task Description:**
+
+The AdvancedArithmetic interface and the method declaration for the abstract `divisorSum(n)` method are provided for you.
+
+Complete the implementation of the `Calculator` class, which implements the AdvancedArithmetic interface. The implementation for the `divisorSum(n)` method must return the sum of all divisors of `n`.
+
+**Example:**
+
+The divisors of 6 are 1, 2, 3, and 6. Their sum is 12.
+
+**Input Format:**
+
+A single line with an integer, `n`.
+
+**Constraints:**
+
+**Output Format:**
+
+You are not responsible for printing anything to stdout. The locked template code in the editor below will call your code and print the necessary output.
+
+
+**Explanation:**
+
+The integer 6 is evenly divisible by 1, 2, 3, and 6. Our `divisorSum` method should return the sum of these numbers, which is 12. The Solution class then prints "I implemented: AdvancedArithmetic" on the first line, followed by the sum returned by `divisorSum` (which is 12) on the second line.
+
+
 
 
 # Contributing and License
