@@ -27,6 +27,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
       - [Palindrome Checker](#palindrome-checker) <!-- Added Palindrome Checker Entry -->
     - [Additional Exercises](#additional-exercises)
       - [Minimum Difference](#minimum-difference) <!-- Added Minimum Difference Exercise Entry -->
+- [Calculator Script](#calculator-script)
 
 - [Hourglass Sum Calculator](#hourglass-sum-calculator)
   - [Usage](#usage)
