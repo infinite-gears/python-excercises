@@ -640,6 +640,43 @@ You are not responsible for printing anything to stdout. The locked template cod
 
 The integer 6 is evenly divisible by 1, 2, 3, and 6. Our `divisorSum` method should return the sum of these numbers, which is 12. The Solution class then prints "I implemented: AdvancedArithmetic" on the first line, followed by the sum returned by `divisorSum` (which is 12) on the second line.
 
+## Bubble Sort Task
+
+**Task Description:**
+
+You are given an array of distinct elements, and your task is to sort the array in ascending order using the Bubble Sort algorithm. You also need to count the number of swaps that occur during the sorting process and print the sorted array along with the number of swaps.
+
+**Example:**
+
+For example, if the input array is `[4, 3, 1, 2]`, the Bubble Sort algorithm would work as follows:
+
+- Round 1: `[3, 1, 2, 4]` (3 swaps)
+- Round 2: `[1, 2, 3, 4]` (2 swaps)
+- Round 3: `[1, 2, 3, 4]` (0 swaps)
+
+In this case, the array is sorted in 5 swaps.
+
+**Input Format:**
+
+The first line contains an integer `n`, the number of elements in the array.
+The second line contains space-separated integers that describe the elements of the array.
+
+**Constraints:**
+
+- `1 <= n <= 600`
+- `1 <= arr[i] <= 2 x 10^6`
+
+**Output Format:**
+
+Print the following three lines of output:
+
+- "Array is sorted in `numSwaps` swaps," where `numSwaps` is the number of swaps that took place.
+- "First Element: `firstElement`," where `firstElement` is the first element in the sorted array.
+- "Last Element: `lastElement`," where `lastElement` is the last element in the sorted array.
+
+**Explanation:**
+
+In this example, the input array is already sorted, so no swaps take place during the sorting process, and the output displays the required information accordingly.
 
 
 
