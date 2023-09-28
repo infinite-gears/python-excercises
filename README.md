@@ -25,20 +25,19 @@ Welcome to the Python Exercises repository! This repository contains a collectio
       - [Parse String to Integer - Variant 3 (Python Script)](#python-script-variant-3)
       - [Calculator Script](#calculator-script) <!-- Added Calculator Script Entry -->
       - [Palindrome Checker](#palindrome-checker) <!-- Added Palindrome Checker Entry -->
+      - [Bubble Sort Task](#bubble-sort-task) <!-- Added Bubble Sort Task Entry -->
     - [Additional Exercises](#additional-exercises)
       - [Minimum Difference](#minimum-difference) <!-- Added Minimum Difference Exercise Entry -->
     - [Interfaces](#interfaces) <!-- Added Interfaces Section Entry -->
-      - [Calculator Task](#calculator-task) <!-- Added Calculator Task Entry -->
-- [Hourglass Sum Calculator](#hourglass-sum-calculator)
-  - [Usage](#usage)
-  - [Algorithm](#algorithm)
-- [Solutions](#solutions)
-  - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones)
-  - [Solution: Maximum Difference](#solution-maximum-difference) <!-- Added Maximum Difference Solution Entry -->
-  - [Solution: Minimum Difference](#solution-minimum-difference) <!-- Added Minimum Difference Solution Entry -->
-- [Contributing](#contributing)
-- [License](#license)
-
+  - [Hourglass Sum Calculator](#hourglass-sum-calculator)
+    - [Usage](#usage)
+    - [Algorithm](#algorithm)
+  - [Solutions](#solutions)
+    - [Solution: Maximum Consecutive Ones](#solution-maximum-consecutive-ones)
+    - [Solution: Maximum Difference](#solution-maximum-difference) <!-- Added Maximum Difference Solution Entry -->
+    - [Solution: Minimum Difference](#solution-minimum-difference) <!-- Added Minimum Difference Solution Entry -->
+  - [Contributing](#contributing)
+  - [License](#license)
 
 
 
