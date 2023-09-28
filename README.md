@@ -677,6 +677,23 @@ Print the following three lines of output:
 
 In this example, the input array is already sorted, so no swaps take place during the sorting process, and the output displays the required information accordingly.
 
+## Bubble Sort Algorithm (Optional Explanation)
+
+**Bubble Sort** is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, indicating that the list is sorted.
+
+Here's how Bubble Sort works:
+
+1. Start with the first element in the list.
+2. Compare it with the next element.
+3. If the current element is greater than the next element, swap them.
+4. Move to the next pair of elements and repeat steps 2 and 3 until the end of the list.
+5. After the first pass, the largest element will have "bubbled up" to the end of the list.
+6. Repeat the process for the remaining unsorted elements, excluding the last sorted element from each pass.
+7. Continue this process until no more swaps are needed (i.e., the list is sorted).
+
+Bubble Sort is not the most efficient sorting algorithm, but it is a good exercise to understand basic sorting techniques.
+
+Feel free to skip this section if you are already familiar with Bubble Sort.
 
 
 # Contributing and License
