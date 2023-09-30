@@ -26,6 +26,7 @@ Welcome to the Python Exercises repository! This repository contains a collectio
       - [Calculator Script](#calculator-script) <!-- Added Calculator Script Entry -->
       - [Palindrome Checker](#palindrome-checker) <!-- Added Palindrome Checker Entry -->
       - [Bubble Sort Task](#bubble-sort-task) <!-- Added Bubble Sort Task Entry -->
+      - [Binary Search Tree (BST) Height Calculation](#binary-search-tree-bst-height-calculation) <!-- Added BST Height Calculation Exercise Entry -->
     - [Additional Exercises](#additional-exercises)
       - [Minimum Difference](#minimum-difference) <!-- Added Minimum Difference Exercise Entry -->
     - [Interfaces](#interfaces) <!-- Added Interfaces Section Entry -->
