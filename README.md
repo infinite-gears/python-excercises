@@ -577,6 +577,22 @@ Implement a Binary Search Tree (BST) and write a method to calculate the height 
 
 **Example:**
 
+**Explanation:** In the example, a BST is constructed with the given values. The height of the BST is 3.
+
+**Input Format:**
+
+- The first line contains an integer `T`, the number of elements to insert into the BST.
+- The following `T` lines contain integers, one per line, representing the elements to insert.
+
+**Output Format:**
+
+- Print a single integer, the height of the BST.
+
+**Constraints:**
+
+- `1 <= T <= 1000`
+- `1 <= data <= 1000`
+
 
 ## Calculator Script 
 
