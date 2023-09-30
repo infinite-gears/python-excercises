@@ -553,6 +553,31 @@ print("Maximum Difference:", max_diff)
 
 **Objective:** In this exercise, you will create a Python script for a simple calculator. The script should define a `Calculator` class with a `power` method that calculates the power of a number. However, the method must throw an exception if either of the input numbers is negative.
 
+**Exercise: Binary Search Tree (BST) Height Calculation**
+
+**Task Description:**
+
+Implement a Binary Search Tree (BST) and write a method to calculate the height of the tree.
+
+**Instructions:**
+
+1. Create a `Node` class that represents a node in the BST. Each node should have a `data` value, a reference to its left child, and a reference to its right child.
+
+2. Create a `Solution` class with the following methods:
+   - `insert(root, data)`: This method should insert a new node with the given `data` value into the BST rooted at `root`. If the `root` is `None`, create a new node as the root.
+   - `getHeight(root)`: Implement this method to calculate the height of the BST rooted at `root`. The height of an empty tree should be -1, and the height of a tree with only the root node should be 0.
+
+3. In the `Main` method:
+   - Read an integer `T` from the user, representing the number of elements to insert into the BST.
+   - Create an instance of the `Solution` class.
+   - Initialize `root` as `None`.
+   - Read `T` integers from the user and insert them into the BST using the `insert` method.
+   - Calculate the height of the BST using the `getHeight` method.
+   - Print the height of the BST.
+
+**Example:**
+
+
 ## Calculator Script 
 
 ### Exercise Description
